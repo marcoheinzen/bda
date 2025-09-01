@@ -96,8 +96,6 @@ Major challenges remain. Data scarcity and limited labeled datasets - particular
 71. Zhu, X. X., Tuia, D., Mou, L., Xia, G.-S., Zhang, L., Xu, F., & Fraundorfer, F. (2017). Deep Learning in Remote Sensing: A Comprehensive Review and List of Resources. IEEE Geoscience and Remote Sensing Magazine, 5(4), 8–36. https://doi.org/10.1109/MGRS.2017.2762307
 
 
-https://github.com/juliankath/Kath
-
 https://github.com/mnasarahmad/UISEM
 
 https://github.com/nasa-gibs/mrf
@@ -129,8 +127,6 @@ https://github.com/ShaneShen/BDANet-Building-Damage-Assessment
 https://github.com/opendatacube/radar
 
 https://github.com/jackkwok/neural-road-inspector
-
-https://github.com/vdurnov/xview2
 
 https://github.com/ethanweber/xview2
 
