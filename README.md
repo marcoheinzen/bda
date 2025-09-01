@@ -96,4 +96,42 @@ Major challenges remain. Data scarcity and limited labeled datasets - particular
 71. Zhu, X. X., Tuia, D., Mou, L., Xia, G.-S., Zhang, L., Xu, F., & Fraundorfer, F. (2017). Deep Learning in Remote Sensing: A Comprehensive Review and List of Resources. IEEE Geoscience and Remote Sensing Magazine, 5(4), 8–36. https://doi.org/10.1109/MGRS.2017.2762307
 
 
+https://github.com/juliankath/Kath
 
+https://github.com/mnasarahmad/UISEM
+
+https://github.com/nasa-gibs/mrf
+
+https://github.com/wenhwu/awesome-remote-sensing-change-detection
+
+https://github.com/likyoo/open-cd
+
+https://github.com/PaddlePaddle/PaddleRS
+
+https://github.com/prs-eth/ukraine-damage-mapping-tool/
+
+https://github.com/microsoft/GlobalMLBuildingFootprints
+
+https://github.com/DIUx-xView/xView2_first_place
+
+https://github.com/ecker-lab/robust-bdd
+
+https://github.com/ultralytics/yolov5
+
+https://github.com/ultralytics/ultralytics
+
+https://github.com/HumanSignal/labelImg
+
+https://github.com/Seyed-Ali-Ahmadi/BDA_SKUNet
+
+https://github.com/ShaneShen/BDANet-Building-Damage-Assessment
+
+https://github.com/opendatacube/radar
+
+https://github.com/jackkwok/neural-road-inspector
+
+https://github.com/vdurnov/xview2
+
+https://github.com/ethanweber/xview2
+
+https://github.com/qcao10/DamageDetection
