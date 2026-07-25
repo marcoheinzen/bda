@@ -1,0 +1,4 @@
+notebook,parquet_id,manifest_key,classifier,baseline_auc,baseline_auc_expected,tuned_auc,delta_auc,mean_folds_auc,std_folds_auc,n_trials_requested,n_trials_done,early_stopped,patience,n_features,n_buildings,n_cities,study_tag
+NB11c_A13_A14_A19_card_changes,A13,prepost_single_card,LightGBM-MIA,0.8023623669485858,0.802,0.812950275102468,0.01058790815388222,0.6886637696165974,0.07351572042786762,200,45,True,40,12,598595,21,NB11c_A13_A14_A19_card_changes__prepost_single_card__LightGBM-MIA
+NB11c_A13_A14_A19_card_changes,A19,card_drop,LightGBM-MIA,0.8023527900959412,0.802,0.8037406151861222,0.001387825090180983,0.6154332438911319,0.13183456324592235,200,62,True,40,10,598595,21,NB11c_A13_A14_A19_card_changes__card_drop__LightGBM-MIA
+NB11c_A13_A14_A19_card_changes,A14,coh_drop,LightGBM-MIA,0.8074813981936424,0.807,0.8004917216659956,-0.006989676527646815,0.537225332254744,0.04668216634992943,200,49,True,40,10,584986,20,NB11c_A13_A14_A19_card_changes__coh_drop__LightGBM-MIA

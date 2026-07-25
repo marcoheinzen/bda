@@ -1,0 +1,12 @@
+modality,n_models,delta_mean,delta_median,v2_wins,v3_wins,tied
+SAR_card_only,7,0.16,0.21,7,0,0
+SAR_card+coh,7,0.091,0.035,6,1,0
+SAR_all,1,0.069,0.069,1,0,0
+multimodal_all,22,0.047,0.068,16,6,0
+other,80,0.046,0.062,49,27,4
+SAR_coh_only,6,0.04,0.118,5,1,0
+SAR_unsupervised,7,-0.003,0.046,4,3,0
+MS_unsupervised,4,-0.032,-0.036,1,2,1
+MS_only,6,-0.059,-0.069,1,5,0
+multimodal_SAR+MS,1,-0.089,-0.089,0,1,0
+SAR_coh_unsupervised,1,-0.294,-0.294,0,1,0

@@ -1,0 +1,13 @@
+feature,VIF
+pre_vh_mean,4194304.0
+delta_vh_mean,2796202.8
+pre_vv_mean,2396745.2
+delta_vv_mean,1864135.1
+post_vh_mean,838860.8
+post_vv_mean,190650.19
+delta_vh_std,8.260943
+post_vv_std,7.9061995
+post_vh_std,7.752994
+pre_vv_std,7.277659
+pre_vh_std,6.880282
+delta_vv_std,6.518654

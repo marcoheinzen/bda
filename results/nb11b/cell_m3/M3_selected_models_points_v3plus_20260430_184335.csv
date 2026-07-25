@@ -1,0 +1,21 @@
+model_id,variant_id,group,auc,n_samples,n_cities,TP,FN,FP,TN,is_leaky,is_degenerate
+B3_logratio_SAVI,unsupervised_logratio;sensor=optical;label=SAVI;direction=-logratio,points_v3plus,0.7406502646425871,3533,5,323,84,1444,1682,False,False
+B3_logratio_NDVI,unsupervised_logratio;sensor=optical;label=NDVI;direction=-logratio,points_v3plus,0.7368448975934581,3533,5,329,78,1438,1688,False,False
+R3b_card_ms,nb09a;cell=R3b,points_v3plus,0.6674139303002442,62043,19,104,7976,177,53786,False,False
+R4b_tier0_all,nb09a;cell=R4b,points_v3plus,0.6657057838845009,39997,4,132,5327,220,34318,False,False
+R3b_all_multimodal,nb09a;cell=R3b,points_v3plus,0.6656729409204656,62043,19,97,7983,165,53798,False,False
+E7c_ExtraTrees,tree_ensemble;classifier=ExtraTrees,points_v3plus,0.661729654146965,62043,19,180,7900,237,53726,False,False
+R5_ExtraTrees_all_multimodal,nb09a;cell=R5,points_v3plus,0.661729654146965,62043,19,180,7900,237,53726,False,False
+R3_ms_plus_blocks_F8,nb09a;cell=R3,points_v3plus,0.6591263692229165,62043,19,88,7992,169,53794,False,False
+R5_RF-200_all_multimodal,nb09a;cell=R5,points_v3plus,0.6591263692229165,62043,19,88,7992,169,53794,False,False
+B5_sub_RF,uisem_sub_classifier;classifier=RF;features=all_multimodal,points_v3plus,0.6591263692229165,62043,19,88,7992,169,53794,False,False
+E1_base_RF,stacking_base;classifier=RF;features=all_multimodal,points_v3plus,0.6591263692229163,62043,19,88,7992,169,53794,False,False
+B6_AdaBoost_alone,uisem_sub_classifier;classifier=AdaBoost;features=all_multimodal,points_v3plus,0.6574508388402541,62043,19,6,8074,43,53920,False,False
+E6_A_impute+obs_all_multimodal,nan_ablation;strategy=A_impute+obs;modality=all_multimodal,points_v3plus,0.6557673088436283,62043,19,120,7960,198,53765,False,False
+D2_sar_+_ms,ablation=SAR + MS (multimodal),points_v3plus,0.6554483379976344,62043,19,33,8047,51,53912,False,False
+B5_UISEM_all_features,uisem_ensemble;sub=RF+GB+XGB+AB;features=all_multimodal,points_v3plus,0.6546288614879685,62043,19,145,7935,262,53701,False,False
+E5_HistGBM_native_NaN,histgbm_native_nan;imputation=none,points_v3plus,0.6545634540938667,62043,19,3345,4735,11533,42430,False,False
+B7_UISEM_card+ms,uisem_sensor_ablation;sub=RF+GB+XGB;sensor_group=card+ms,points_v3plus,0.6540957106106623,62043,19,179,7901,336,53627,False,False
+R4_tier0_ms,nb09a;cell=R4,points_v3plus,0.6538650462980471,39997,4,181,5278,249,34289,False,False
+E7c_HistGBM_imputed,tree_ensemble;classifier=HistGBM;imputation=median,points_v3plus,0.6520193417730484,62043,19,3376,4704,11909,42054,False,False
+R3b_ms_only,nb09a;cell=R3b,points_v3plus,0.6514700735542487,62043,19,224,7856,343,53620,False,False

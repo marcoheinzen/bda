@@ -1,0 +1,5 @@
+p_flip,spearman_rho_mean,spearman_rho_std,top5_overlap_mean,mean_abs_delta_auc_mean
+0.01,0.9923,0.0027,4.9,0.0053
+0.05,0.9898,0.0023,4.7,0.0203
+0.1,0.9846,0.0054,4.7,0.0332
+0.2,0.973,0.0061,4.3,0.049

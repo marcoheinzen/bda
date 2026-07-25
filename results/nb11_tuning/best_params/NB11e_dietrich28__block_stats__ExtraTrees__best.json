@@ -1,0 +1,33 @@
+{
+  "study_tag": "NB11e_dietrich28__block_stats__ExtraTrees",
+  "notebook": "NB11e_dietrich28",
+  "best_params": {
+    "max_depth": null,
+    "n_estimators": 576,
+    "min_samples_leaf": 9,
+    "min_samples_split": 3,
+    "max_features": "log2"
+  },
+  "tuned_auc": 0.8421503717020633,
+  "baseline_auc": 0.8111518470397765,
+  "delta_auc": 0.030998524662286808,
+  "mean_folds_auc": 0.7373917894103801,
+  "std_folds_auc": 0.08803453331199114,
+  "fold_aucs": [
+    0.7116708132866371,
+    0.6252077784494702,
+    0.769364739964133,
+    0.6932225756527381,
+    0.8874930396989226
+  ],
+  "n_trials_done": 55,
+  "n_trials_requested": 200,
+  "patience": 40,
+  "n_features": 56,
+  "n_buildings": 598595,
+  "n_cities": 21,
+  "manifest_key": "block_stats",
+  "parquet_id": "A15",
+  "feature_set": "dietrich28",
+  "classifier": "ExtraTrees"
+}

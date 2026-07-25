@@ -1,0 +1,13 @@
+feature,VIF
+s2__swir_baseline_std__max,0.00040069342
+s2__swir_baseline_mean__max_abs_delta,1.2324398e-05
+s2__swir_baseline_std__max_abs_delta,1.0444092e-05
+s2__swir_baseline_std__std,4.767063e-06
+s2__swir_baseline_mean__std,2.55812e-06
+s2__swir_baseline_std__mean,2.3357116e-13
+s2__swir_baseline_mean__max,1.5251511e-13
+s2__swir_baseline_std__p50,6.907963e-14
+s2__swir_baseline_mean__min,6.3802946e-14
+s2__swir_baseline_mean__mean,1.3765243e-14
+s2__swir_baseline_mean__p50,6.931399e-15
+s2__swir_baseline_std__min,3.0559505e-15

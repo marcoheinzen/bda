@@ -1,0 +1,38 @@
+{
+  "generated_from": "13g_BDA_Reconciliation_Checks_v2.ipynb",
+  "notebook_run": "2026-06-21T23:27:40",
+  "persisted": "2026-06-28",
+  "read_only_source": true,
+  "match_radius_m_operative": 10,
+  "match_distance_max_m": 10.0,
+  "match_distance_rows_gt_10m": 0,
+  "match_distance_rows_gt_15m": 0,
+  "match_method_counts": {
+    "unmatched": 888821,
+    "within": 12304,
+    "nearest": 6246
+  },
+  "v2_buildings": {
+    "positives": 7332,
+    "negatives": 591263,
+    "labeled": 598595,
+    "total_footprints": 907371
+  },
+  "v3_points": {
+    "positives": 8247,
+    "negatives": 54996,
+    "total": 63243
+  },
+  "point_to_building_positive_ratio": 1.12,
+  "v3_total_rows_ondisk": 63243,
+  "v3_total_rows_cited_in_some_notes": 62043,
+  "v3_rows_discrepancy_reproduced_on_disk": false,
+  "oof_total_files": 1776,
+  "oof_roots": [
+    "DRIVE_ROOT/data/outputs",
+    "RESULTS_ROOT"
+  ],
+  "footprint_primary": "Overture",
+  "footprint_comparison": "OSM",
+  "overture_vs_osm_stat_file": "data/logs/cell_12c_overture_vs_osm.json"
+}

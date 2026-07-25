@@ -1,0 +1,5 @@
+notebook,parquet_id,manifest_key,feature_set,classifier,baseline_auc,baseline_auc_expected,tuned_auc,delta_auc,mean_folds_auc,std_folds_auc,n_trials_requested,n_trials_done,early_stopped,patience,n_features,n_buildings,n_cities,study_tag
+NB11e_dietrich28,A15,block_stats,dietrich28,LightGBM,0.8161540764762641,0.816,0.8651939589260575,0.049039882449793404,0.7450789544499488,0.07320010261705558,200,81,True,40,56,598595,21,NB11e_dietrich28__block_stats__LightGBM
+NB11e_dietrich28,A15,block_stats,dietrich28,XGBoost,0.8302795858107583,0.83,0.8565190253002182,0.026239439489459837,0.7442949427327459,0.07430866951914487,200,23,True,40,56,598595,21,NB11e_dietrich28__block_stats__XGBoost
+NB11e_dietrich28,A15,block_stats,dietrich28,RF-200,0.6845246758328918,0.685,0.8451876717754665,0.16066299594257472,0.7325581513119309,0.08984556554843368,100,87,True,40,56,598595,21,NB11e_dietrich28__block_stats__RF-200
+NB11e_dietrich28,A15,block_stats,dietrich28,ExtraTrees,0.8111518470397765,0.811,0.8421503717020633,0.030998524662286808,0.7373917894103801,0.08803453331199114,200,55,True,40,56,598595,21,NB11e_dietrich28__block_stats__ExtraTrees

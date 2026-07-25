@@ -1,0 +1,9 @@
+modality,city,n_dates,n_buildings,n_dates_prebattle,n_dates_crossbattle,n_dates_postbattle
+CARD,Lysychansk,8,47169,5,1,2
+CARD,Mariupol,14,119107,5,7,2
+CARD,Rubizhne,13,16687,5,6,2
+CARD,Sievierodonetsk,12,14151,5,5,2
+COH,Lysychansk,5,47169,3,0,2
+COH,Mariupol,7,119107,4,2,1
+COH,Rubizhne,5,16687,0,3,2
+COH,Sievierodonetsk,6,14151,4,2,0

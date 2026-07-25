@@ -1,0 +1,31 @@
+parquet,id,format,n_features,n_rows,n_cities,n_excluded,excluded_cities,best_auc,best_feature,n_auc_gt_055,question
+fusion_card_cohdrop,F3,long,22,9828870,21,0,,0.8364,s1__coh__drop_count_mean,19,Q2: SAR-only multimodal
+fusion_ms_card_cohdrop,F2,long,56,15771398,19,2,"Borodyanka,Mykolaiv",0.8356,s1__coh__drop_count_mean,35,Q2: Full multimodal
+fusion_indices_card_cohdrop,F6,long,49,16186891,19,2,"Borodyanka,Mykolaiv",0.8346,s1__coh__drop_count_mean,29,Q2: Indices + CARD + COH drop
+coh_drop,A14,wide,16,598595,21,0,,0.829,s1__coh__drop_count_mean,16,Q1: Does cumulative COH drop carry signal?
+fusion_ms_cohdrop,F4,long,50,6579632,19,2,"Borodyanka,Mykolaiv",0.8286,s1__coh__drop_count_mean,32,Q2: Optical + COH drop
+fusion_composite_cohdrop,F7,wide,151,480313,19,2,"Borodyanka,Mykolaiv",0.8039,s1__coh__drop_count_mean,130,Q2: Composite + COH drop
+block_stats,A15,wide,780,598595,21,0,,0.8011,s1__coh__post_baseline__max_std,305,Q6: Does Dietrich block approach work with GroupKFold?
+card_drop,A19,wide,16,598595,21,0,,0.7978,s1__vv__z_running_min_std,15,Q: Does cumulative CARD z-score drop carry signal?
+fusion_composite_blockstats,F8,wide,915,480313,19,2,"Borodyanka,Mykolaiv",0.7745,s1__coh__post_baseline__max_std,428,Q6: Dietrich composite + block replication
+rolling_stats_roll13,A18,wide,57,598595,21,0,,0.7433,s1__coh__baseline__median_std,52,Q4: Rolling stats (window=13)
+rolling_stats_roll3,A16,wide,99,598595,21,0,,0.7433,s1__coh__baseline__median_std,52,Q4: Rolling stats (window=3)
+rolling_stats_roll7,A17,wide,99,598595,21,0,,0.7433,s1__coh__baseline__median_std,52,Q4: Rolling stats (window=7)
+ms_change,A20,wide,22,598595,21,0,,0.7251,s2__swir_baseline_std_max,6,Q: Does cumulative MS SWIR brightness + NBR anomaly carry signal?
+ms_maha,A21,wide,13,598595,21,0,,0.7137,s2__date_first_exceedance_mean,12,Q: Does multi-band MS Mahalanobis distance carry signal?
+composite_prepost_bands,A9,wide,135,480313,19,0,,0.7132,s2__composite__mndwi__post_winter_baseline_max,114,Q3: Do composites work? (Dietrich baseline)
+prepost_single_card,A13,wide,12,598595,21,0,,0.7045,pre_vv_std,10,Q3: Single-scene CARD pre/post
+lu_change,A22,wide,17,598595,21,0,,0.7027,s2__lu__modal_post_class_mode,11,Q: Does persistent urban-to-other landuse loss carry signal?
+rolling_card,A8,long,18,9658967,21,0,,0.674,s1__vh__roll13_std,13,Q4: Do rolling windows add value (CARD)?
+composite_vs_scenes_bands,A11,long,9,1469243,16,0,,0.6592,scene_s2__b02_mean,5,Q3: Does per-scene trajectory beat static snapshot?
+rolling_coh,A7,long,9,2514927,16,0,,0.641,s1__coh_vv__roll13_std,6,Q4: Do rolling windows add value (COH)?
+fusion_indices_card,F5,long,33,16186891,19,2,"Borodyanka,Mykolaiv",0.6359,s1__vh_std,13,Q2: Indices + CARD
+fusion_ms_card,F1,long,40,15771398,19,2,"Borodyanka,Mykolaiv",0.6359,s1__vh_std,19,Q2: Does MS+CARD beat either alone?
+scene_card,A2,long,6,9828870,21,0,,0.6358,s1__vh_std,3,Q1: Does CARD carry per-scene damage signal?
+scene_ms,A1,long,34,6579632,19,0,,0.6331,s2__b04_std,16,Q1: Does optical carry per-scene damage signal?
+scene_indices,A5,long,27,6995125,19,0,,0.6318,s2__mndwi_mean,10,Q1: Do spectral indices outperform raw bands?
+scene_coh,A3,long,9,3178910,18,0,,0.6157,s1__coh_vh_std,5,Q1: Does COH carry per-scene damage signal?
+composite_prepost_landuse,A10,wide,4,480313,19,0,,0.6133,landuse__winter_baseline_mode,4,Q5: Does composite landuse change help?
+composite_vs_scenes_landuse,A12,long,3,1884736,16,0,,0.5846,pre_landuse_mode,3,Q5: Per-scene landuse trajectory?
+scene_landuse,A4,long,1,6995125,19,0,,0.5776,s2__landuse_mode,1,Q5: Does landuse context help?
+scene_nbr,A6,long,3,6995125,19,0,,0.5457,s2__nbr_std,0,Q1: Does NBR carry signal?

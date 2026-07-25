@@ -1,0 +1,6 @@
+modality,n,v2_median,v3_median,delta_median,v2_wins,v3_wins
+SAR,29,0.633,0.515,0.117,23,6
+MS,10,0.625,0.646,-0.066,3,6
+multimodal,22,0.737,0.646,0.119,15,7
+other,83,0.585,0.526,0.022,42,37
+accumulators,2,0.198,0.505,-0.307,0,2

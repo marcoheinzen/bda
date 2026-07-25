@@ -1,0 +1,334 @@
+{
+  "E1_base_RF": {
+    "auc": 0.5451230151551756,
+    "f1": 0.0019056693663649356,
+    "n_features": 915,
+    "building_id": "<ArrowStringArray>\n[        'Bucha_0',         'Bucha_1',        'Bucha_10',       'Bucha_100',\n      'Bucha_1000',     'Bucha_10000',     'Bucha_10001',     'Bucha_10002',\n     'Bucha_10003',     'Bucha_10004',\n ...\n 'Kramatorsk_9965', 'Kramatorsk_9967', 'Kramatorsk_9969', 'Kramatorsk_9972',\n 'Kramatorsk_9983', 'Kramatorsk_9985', 'Kramatorsk_9988', 'Kramatorsk_9990',\n 'Kramatorsk_9991', 'Kramatorsk_9998']\nLength: 387066, dtype: str",
+    "fold_id": "[4 4 4 ... 4 4 4]"
+  },
+  "E1_base_GBM": {
+    "auc": 0.7535045534130647,
+    "f1": 0.015096530701117723,
+    "n_features": 915,
+    "building_id": "<ArrowStringArray>\n[        'Bucha_0',         'Bucha_1',        'Bucha_10',       'Bucha_100',\n      'Bucha_1000',     'Bucha_10000',     'Bucha_10001',     'Bucha_10002',\n     'Bucha_10003',     'Bucha_10004',\n ...\n 'Kramatorsk_9965', 'Kramatorsk_9967', 'Kramatorsk_9969', 'Kramatorsk_9972',\n 'Kramatorsk_9983', 'Kramatorsk_9985', 'Kramatorsk_9988', 'Kramatorsk_9990',\n 'Kramatorsk_9991', 'Kramatorsk_9998']\nLength: 387066, dtype: str",
+    "fold_id": "[4 4 4 ... 4 4 4]"
+  },
+  "E1_base_XGB": {
+    "auc": 0.6572826497317478,
+    "f1": 0.03585835948005379,
+    "n_features": 915,
+    "building_id": "<ArrowStringArray>\n[        'Bucha_0',         'Bucha_1',        'Bucha_10',       'Bucha_100',\n      'Bucha_1000',     'Bucha_10000',     'Bucha_10001',     'Bucha_10002',\n     'Bucha_10003',     'Bucha_10004',\n ...\n 'Kramatorsk_9965', 'Kramatorsk_9967', 'Kramatorsk_9969', 'Kramatorsk_9972',\n 'Kramatorsk_9983', 'Kramatorsk_9985', 'Kramatorsk_9988', 'Kramatorsk_9990',\n 'Kramatorsk_9991', 'Kramatorsk_9998']\nLength: 387066, dtype: str",
+    "fold_id": "[4 4 4 ... 4 4 4]"
+  },
+  "E1_base_LGBM": {
+    "auc": 0.719329422383606,
+    "f1": 0.06549039958484691,
+    "n_features": 915,
+    "building_id": "<ArrowStringArray>\n[        'Bucha_0',         'Bucha_1',        'Bucha_10',       'Bucha_100',\n      'Bucha_1000',     'Bucha_10000',     'Bucha_10001',     'Bucha_10002',\n     'Bucha_10003',     'Bucha_10004',\n ...\n 'Kramatorsk_9965', 'Kramatorsk_9967', 'Kramatorsk_9969', 'Kramatorsk_9972',\n 'Kramatorsk_9983', 'Kramatorsk_9985', 'Kramatorsk_9988', 'Kramatorsk_9990',\n 'Kramatorsk_9991', 'Kramatorsk_9998']\nLength: 387066, dtype: str",
+    "fold_id": "[4 4 4 ... 4 4 4]"
+  },
+  "E1_stacking_LogReg": {
+    "auc": 0.6361581549002894,
+    "f1": 0.0,
+    "auc_std": 0.08796131753927754,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 4,
+    "experiment": "E1_stacking_LogReg"
+  },
+  "E1_soft_voting": {
+    "auc": 0.6852765260209384,
+    "f1": 0.02642369020501139,
+    "n_features": 4,
+    "building_id": "<ArrowStringArray>\n[        'Bucha_0',         'Bucha_1',        'Bucha_10',       'Bucha_100',\n      'Bucha_1000',     'Bucha_10000',     'Bucha_10001',     'Bucha_10002',\n     'Bucha_10003',     'Bucha_10004',\n ...\n 'Kramatorsk_9965', 'Kramatorsk_9967', 'Kramatorsk_9969', 'Kramatorsk_9972',\n 'Kramatorsk_9983', 'Kramatorsk_9985', 'Kramatorsk_9988', 'Kramatorsk_9990',\n 'Kramatorsk_9991', 'Kramatorsk_9998']\nLength: 387066, dtype: str",
+    "fold_id": "[4 4 4 ... 4 4 4]"
+  },
+  "E2_LightGBM_all": {
+    "auc": 0.719329422383606,
+    "f1": 0.06549039958484691,
+    "auc_std": 0.10285035261851291,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E2_LightGBM_all"
+  },
+  "E2_LightGBM_card": {
+    "auc": 0.7207604318259747,
+    "f1": 0.05154095395976189,
+    "auc_std": 0.11489718614444262,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 750,
+    "experiment": "E2_LightGBM_card"
+  },
+  "E2_LightGBM_coh": {
+    "auc": 0.6153545235893508,
+    "f1": 0.01885124697446573,
+    "auc_std": 0.07660370923413977,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 30,
+    "experiment": "E2_LightGBM_coh"
+  },
+  "E2_LightGBM_ms": {
+    "auc": 0.6199677068320102,
+    "f1": 0.03187866647589069,
+    "auc_std": 0.11246394534497452,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 135,
+    "experiment": "E2_LightGBM_ms"
+  },
+  "E2_LightGBM_card+coh": {
+    "auc": 0.7196988932290961,
+    "f1": 0.04795050270688322,
+    "auc_std": 0.11329332097398004,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 780,
+    "experiment": "E2_LightGBM_card+coh"
+  },
+  "E5_LightGBM_native_NaN": {
+    "auc": 0.715776332010106,
+    "f1": 0.06878277670438863,
+    "auc_std": 0.10592559568310177,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E5_LightGBM_native_NaN"
+  },
+  "E5_HistGBM_native_NaN": {
+    "auc": 0.7595608215202697,
+    "f1": 0.03286432305543154,
+    "auc_std": 0.10346357623316947,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E5_HistGBM_native_NaN"
+  },
+  "E6_A_impute+obs_card_only": {
+    "auc": 0.5715948817494227,
+    "f1": 0.008518693800283956,
+    "auc_std": 0.10279482370925032,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 1374,
+    "experiment": "E6_A_impute+obs_card_only"
+  },
+  "E6_A_impute+obs_coh_only": {
+    "auc": 0.543675869605998,
+    "f1": 0.0164979696771063,
+    "auc_std": 0.05306642650475488,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 30,
+    "experiment": "E6_A_impute+obs_coh_only"
+  },
+  "E6_A_impute+obs_card+coh": {
+    "auc": 0.575851167390106,
+    "f1": 0.004755111745126011,
+    "auc_std": 0.10958171979444159,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 1404,
+    "experiment": "E6_A_impute+obs_card+coh"
+  },
+  "E6_A_impute+obs_all_multimodal": {
+    "auc": 0.5506665595224546,
+    "f1": 0.0019065776930409914,
+    "auc_std": 0.10835625823414863,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 1539,
+    "experiment": "E6_A_impute+obs_all_multimodal"
+  },
+  "E6_B_nativeNaN_card_only": {
+    "auc": 0.7107733515605791,
+    "f1": 0.05287181437809053,
+    "auc_std": 0.12615479381941488,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 750,
+    "experiment": "E6_B_nativeNaN_card_only"
+  },
+  "E6_B_nativeNaN_coh_only": {
+    "auc": 0.6153545235893508,
+    "f1": 0.01885124697446573,
+    "auc_std": 0.07660370923413977,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 30,
+    "experiment": "E6_B_nativeNaN_coh_only"
+  },
+  "E6_B_nativeNaN_card+coh": {
+    "auc": 0.7133251483983398,
+    "f1": 0.048092755214050494,
+    "auc_std": 0.10972739939397516,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 780,
+    "experiment": "E6_B_nativeNaN_card+coh"
+  },
+  "E6_B_nativeNaN_all_multimodal": {
+    "auc": 0.715776332010106,
+    "f1": 0.06878277670438863,
+    "auc_std": 0.10592559568310177,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E6_B_nativeNaN_all_multimodal"
+  },
+  "E6_C_SAR_only_no_NaN": {
+    "auc": 0.5736984341795477,
+    "f1": 0.007600950118764846,
+    "auc_std": 0.10405149883185709,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 780,
+    "experiment": "E6_C_SAR_only_no_NaN"
+  },
+  "E7_SVM_linear": {
+    "auc": 0.3236666229001324,
+    "f1": 0.0,
+    "auc_std": 0.10944098728097992,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7_SVM_linear"
+  },
+  "E7_SVM_rbf": {
+    "auc": 0.3251192506835388,
+    "f1": 0.0,
+    "auc_std": 0.07887426844525447,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7_SVM_rbf"
+  },
+  "E7_KNN_5": {
+    "auc": 0.5895365735294607,
+    "f1": 0.015070921985815602,
+    "auc_std": 0.06705578849959115,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7_KNN_5"
+  },
+  "E7_KNN_15": {
+    "auc": 0.5223960290992753,
+    "f1": 0.0009528346831824678,
+    "auc_std": 0.12053530931926922,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7_KNN_15"
+  },
+  "E7_LogReg": {
+    "auc": 0.6551310950496604,
+    "f1": 0.017758904890143062,
+    "auc_std": 0.07343046725225272,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7_LogReg"
+  },
+  "E7b_GaussianNB": {
+    "auc": 0.5637564969481723,
+    "f1": 0.021592651682956675,
+    "auc_std": 0.05474476938983473,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7b_GaussianNB"
+  },
+  "E7b_LDA": {
+    "auc": 0.6858962212130549,
+    "f1": 0.07084407577625827,
+    "auc_std": 0.07205158836197642,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7b_LDA"
+  },
+  "E7b_QDA": {
+    "auc": 0.5924004380108624,
+    "f1": 0.014510565753478968,
+    "auc_std": 0.14699015775567728,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7b_QDA"
+  },
+  "E7b_RidgeClassifier": {
+    "auc": 0.740155972074616,
+    "f1": 0.025286947588850035,
+    "auc_std": 0.08124783271531824,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7b_RidgeClassifier"
+  },
+  "E7b_NearestCentroid": {
+    "auc": 0.6782506463974484,
+    "f1": 0.025292116550806095,
+    "auc_std": 0.07886785321329508,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7b_NearestCentroid"
+  },
+  "E7c_HistGBM_imputed": {
+    "auc": 0.7826012775509006,
+    "f1": 0.03487518883533559,
+    "auc_std": 0.07893992884386755,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7c_HistGBM_imputed"
+  },
+  "E7c_ExtraTrees": {
+    "auc": 0.594492860445385,
+    "f1": 0.005711565920990005,
+    "auc_std": 0.0890757329250904,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7c_ExtraTrees"
+  },
+  "E7d_MLP_128_64": {
+    "auc": 0.7153629115379109,
+    "f1": 0.0,
+    "auc_std": 0.06277650287201818,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7d_MLP_128_64"
+  },
+  "E7d_MLP_256_128_64": {
+    "auc": 0.7724281894115831,
+    "f1": 0.0018231540565177757,
+    "auc_std": 0.07638213281440812,
+    "building_id": "['Bucha_0' 'Bucha_1' 'Bucha_10' ... 'Kramatorsk_9990' 'Kramatorsk_9991'\n 'Kramatorsk_9998']",
+    "fold_id": "[4 4 4 ... 4 4 4]",
+    "n_features": 915,
+    "experiment": "E7d_MLP_256_128_64"
+  },
+  "E8_IsolationForest_c=0.005": {
+    "auc": 0.6285220814667695,
+    "f1": 0.007159904534606206,
+    "n_features": 915,
+    "method": "unsupervised"
+  },
+  "E8_IsolationForest_c=0.050": {
+    "auc": 0.6285220814667695,
+    "f1": 0.014639377127138795,
+    "n_features": 915,
+    "method": "unsupervised"
+  },
+  "E8_IsolationForest_c=0.100": {
+    "auc": 0.6285220814667695,
+    "f1": 0.01671486691828832,
+    "n_features": 915,
+    "method": "unsupervised"
+  }
+}

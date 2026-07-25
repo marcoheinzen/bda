@@ -1,0 +1,38 @@
+{
+  "study_tag": "NB11e_dietrich28__block_stats__LightGBM",
+  "notebook": "NB11e_dietrich28",
+  "best_params": {
+    "n_estimators": 763,
+    "num_leaves": 234,
+    "max_depth": 3,
+    "learning_rate": 0.03118712563361772,
+    "min_child_samples": 81,
+    "reg_alpha": 0.8144820565771123,
+    "reg_lambda": 0.4328392105852525,
+    "feature_fraction": 0.8382741099748725,
+    "bagging_fraction": 0.677468406645442,
+    "bagging_freq": 3
+  },
+  "tuned_auc": 0.8651939589260575,
+  "baseline_auc": 0.8161540764762641,
+  "delta_auc": 0.049039882449793404,
+  "mean_folds_auc": 0.7450789544499488,
+  "std_folds_auc": 0.07320010261705558,
+  "fold_aucs": [
+    0.7360415802787506,
+    0.6359404865187989,
+    0.7793527875932561,
+    0.7159527944902078,
+    0.858107123368731
+  ],
+  "n_trials_done": 81,
+  "n_trials_requested": 200,
+  "patience": 40,
+  "n_features": 56,
+  "n_buildings": 598595,
+  "n_cities": 21,
+  "manifest_key": "block_stats",
+  "parquet_id": "A15",
+  "feature_set": "dietrich28",
+  "classifier": "LightGBM"
+}

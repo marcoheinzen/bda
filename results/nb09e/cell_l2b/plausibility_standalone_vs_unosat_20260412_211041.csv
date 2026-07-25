@@ -1,0 +1,7 @@
+signal,description,higher_is_damage,auc,avg_precision,mwu_pvalue,damaged_median,undamaged_median,delta_median,n_valid
+plausibility_score,Combined plausibility (L2),True,0.6114,0.0198,1.7311101417080062e-266,0.0,-0.5,0.5,598595
+lu_plausible_damage,Landuse: plausible damage transition,True,0.5431,0.0154,3.25824656574419e-298,0.0,0.0,0.0,598595
+lu_implausible_damage,Landuse: implausible damage transition,False,0.4913,0.012,0.0003266599387304091,0.0,0.0,0.0,598595
+ndvi_delta,NDVI delta (negative = damage),False,0.4078,0.0166,2.2509400101709237e-129,0.0194,0.0056,0.0138,277026
+coh_drop,COH drop (positive = structural change),True,0.6972,0.0947,0.0,2.0,1.0,1.0,57552
+bldg_reliable,Building reliable (area >= 50 m2),True,0.6489,0.0175,0.0,1.0,1.0,0.0,598595

@@ -1,0 +1,154 @@
+{
+  "notebook": "NB09bV3_v1",
+  "n_experiments": 17,
+  "best_unsupervised": "B4_step1_card",
+  "best_supervised": "B5_sub_RF",
+  "experiments": {
+    "B0_single_s1_vv_mean": {
+      "auc": 0.5184193351125514,
+      "f1": NaN,
+      "n_features": 1,
+      "method": "unsupervised",
+      "direction": "|change|"
+    },
+    "B0_single_s1_vh_mean": {
+      "auc": 0.5229742735657845,
+      "f1": NaN,
+      "n_features": 1,
+      "method": "unsupervised",
+      "direction": "|change|"
+    },
+    "B4_step1_card": {
+      "auc": 0.5259161180834978,
+      "f1": NaN,
+      "n_features": 2,
+      "method": "unsupervised_combined"
+    },
+    "B5_UISEM_all_features": {
+      "auc": 0.6546288614879685,
+      "f1": 0.03416990691646047,
+      "auc_std": 0.031185712113370165,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 179,
+      "experiment": "B5_UISEM_all_features"
+    },
+    "B5_sub_RF": {
+      "auc": 0.6591263692229165,
+      "f1": 0.021110711287033707,
+      "auc_std": 0.023232923366019557,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 179,
+      "experiment": "B5_sub_RF"
+    },
+    "B5_sub_GBM": {
+      "auc": 0.6394475046433539,
+      "f1": 0.03629935179728933,
+      "auc_std": 0.03451537672186759,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 179,
+      "experiment": "B5_sub_GBM"
+    },
+    "B5_sub_XGB": {
+      "auc": 0.602301184823558,
+      "f1": 0.14886950630874757,
+      "auc_std": 0.03373773460708694,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 179,
+      "experiment": "B5_sub_XGB"
+    },
+    "B6_UISEM_no_AdaBoost": {
+      "auc": 0.6458528331568587,
+      "f1": 0.04535462223764897,
+      "auc_std": 0.031733478133890484,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 179,
+      "experiment": "B6_UISEM_no_AdaBoost"
+    },
+    "B6_AdaBoost_alone": {
+      "auc": 0.6574508388402541,
+      "f1": 0.0014761963341124369,
+      "auc_std": 0.03926232758491482,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 179,
+      "experiment": "B6_AdaBoost_alone"
+    },
+    "B7_UISEM_coh_only": {
+      "auc": 0.4806697069022174,
+      "f1": 0.008461259518916959,
+      "auc_std": 0.02983269557519947,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 12,
+      "experiment": "B7_UISEM_coh_only"
+    },
+    "B7_UISEM_ms_only": {
+      "auc": 0.6465070515863178,
+      "f1": 0.07566484922666074,
+      "auc_std": 0.03811409050562513,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 79,
+      "experiment": "B7_UISEM_ms_only"
+    },
+    "B7_UISEM_card_only": {
+      "auc": 0.5064697130211882,
+      "f1": 0.009195402298850575,
+      "auc_std": 0.04536021822938905,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 84,
+      "experiment": "B7_UISEM_card_only"
+    },
+    "B7_UISEM_coh+ms": {
+      "auc": 0.6361960789782071,
+      "f1": 0.05166135639508421,
+      "auc_std": 0.039817364769725964,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 91,
+      "experiment": "B7_UISEM_coh+ms"
+    },
+    "B7_UISEM_card+coh": {
+      "auc": 0.5140889003888436,
+      "f1": 0.009179852639207634,
+      "auc_std": 0.042360359158904924,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 96,
+      "experiment": "B7_UISEM_card+coh"
+    },
+    "B7_UISEM_card+coh+delta": {
+      "auc": 0.5140889003888436,
+      "f1": 0.009179852639207634,
+      "auc_std": 0.042360359158904924,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 96,
+      "experiment": "B7_UISEM_card+coh+delta"
+    },
+    "B7_UISEM_card+ms": {
+      "auc": 0.6540957106106623,
+      "f1": 0.041652123327516,
+      "auc_std": 0.03263302712080559,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 163,
+      "experiment": "B7_UISEM_card+ms"
+    },
+    "B7_UISEM_all_multimodal": {
+      "auc": 0.6458528331568587,
+      "f1": 0.04535462223764897,
+      "auc_std": 0.031733478133890484,
+      "point_id": "['Lysychansk_building_centroid_2377' 'Lysychansk_building_centroid_2378'\n 'Lysychansk_building_centroid_2379' ... 'Kramatorsk_unosat_7'\n 'Kramatorsk_unosat_8' 'Kramatorsk_unosat_9']",
+      "fold_id": "[1 1 1 ... 2 2 2]",
+      "n_features": 179,
+      "experiment": "B7_UISEM_all_multimodal"
+    }
+  }
+}

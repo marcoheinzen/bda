@@ -1,0 +1,6 @@
+signal,description,parquet,higher_is_damage,auc,avg_precision,mwu_pvalue,damaged_median,undamaged_median,delta_median,n_valid
+s2__date_first_exceedance,A21 Mahalanobis: date first exceedance (earlier = damage),ms_maha_A21,True,0.5014,0.1219,0.7248944302306572,20221016.0,20221016.0,0.0,39428
+s2__swir_z_running_max,A20 SWIR: z-running max mean (peak anomaly = damage),ms_change_A20,True,0.5,0.1152,1.0,-0.7917,-0.7917,0.0,3533
+s2__date_worst_swir_rise,A20 SWIR: date worst rise (earlier = damage),ms_change_A20,True,0.5,0.1152,1.0,20250220.0,20250220.0,0.0,3533
+s2__mahalanobis_exceedance_count,A21 Mahalanobis: exceedance count mean (more = damage),ms_maha_A21,True,0.4989,0.1209,0.015535503642144862,1.0,1.0,0.0,39428
+s2__mahalanobis_running_max,A21 Mahalanobis: running max mean (peak = damage),ms_maha_A21,True,0.4909,0.1274,0.04219955878993621,2.041,2.1281,-0.0871,39428

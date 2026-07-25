@@ -1,0 +1,33 @@
+{
+  "study_tag": "NB11e_dietrich28__block_stats__RF-200",
+  "notebook": "NB11e_dietrich28",
+  "best_params": {
+    "max_depth": 7,
+    "n_estimators": 177,
+    "min_samples_leaf": 9,
+    "min_samples_split": 13,
+    "max_features": "log2"
+  },
+  "tuned_auc": 0.8451876717754665,
+  "baseline_auc": 0.6845246758328918,
+  "delta_auc": 0.16066299594257472,
+  "mean_folds_auc": 0.7325581513119309,
+  "std_folds_auc": 0.08984556554843368,
+  "fold_aucs": [
+    0.6957769703197587,
+    0.6262115754781171,
+    0.7762194715580527,
+    0.6801992986848447,
+    0.8843834405188812
+  ],
+  "n_trials_done": 87,
+  "n_trials_requested": 100,
+  "patience": 40,
+  "n_features": 56,
+  "n_buildings": 598595,
+  "n_cities": 21,
+  "manifest_key": "block_stats",
+  "parquet_id": "A15",
+  "feature_set": "dietrich28",
+  "classifier": "RF-200"
+}

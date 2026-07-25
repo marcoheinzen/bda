@@ -1,0 +1,3 @@
+leaky_model,clean_model,auc_leaky,auc_clean,delta_auc,group
+D1i_allblocks_random,D1i_allblocks_groupkfold,0.6320555579411695,0.5217038404406857,0.11035171750048378,points_v3plus
+D1j_dynamic_random,D1j_dynamic_groupkfold,0.601905688202274,0.5846232923671831,0.017282395835090836,points_v3plus

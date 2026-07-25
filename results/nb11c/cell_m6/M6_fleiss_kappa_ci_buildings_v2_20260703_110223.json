@@ -1,0 +1,8 @@
+{
+  "group": "buildings_v2",
+  "n_samples": 466704,
+  "n_raters": 15,
+  "kappa_point": 0.6218,
+  "kappa_lo": 0.6204,
+  "kappa_hi": 0.623
+}

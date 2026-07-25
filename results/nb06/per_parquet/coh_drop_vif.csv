@@ -1,0 +1,17 @@
+feature,VIF
+s1__coh__date_worst_drop_max,7218.554394642201
+s1__coh__date_worst_drop_mean,3313.7641355719575
+s1__coh__drop_count_max,2378.508011125225
+s1__coh__date_first_drop_max,2169.3702294967184
+s1__coh__drop_count_std,1204.7584635328299
+s1__coh__date_worst_drop_std,975.9149546487548
+s1__coh__running_min_max,909.3958053948058
+s1__coh__date_first_drop_std,727.3815001510518
+s1__coh__running_min_mean,551.1091571475158
+s1__coh__max_drop_mean,502.52125952273656
+s1__coh__drop_count_mean,469.2056626684355
+s1__coh__max_drop_max,426.8076460251043
+s1__coh__date_first_drop_mean,348.1157189126572
+s1__coh__running_min_std,48.485219231160734
+s1__coh__max_drop_std,6.908008704630506
+s1__coh__lu_transition_mode,3.893165927608204

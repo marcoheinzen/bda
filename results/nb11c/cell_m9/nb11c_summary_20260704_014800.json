@@ -1,0 +1,9 @@
+{
+  "notebook": "NB11c_v5",
+  "groups": [
+    "buildings_v2",
+    "points_v3plus"
+  ],
+  "b_bootstrap": 500,
+  "random_state": 42
+}

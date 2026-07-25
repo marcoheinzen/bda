@@ -1,0 +1,12 @@
+{
+  "n_buildings": 200702,
+  "n_raters": 14,
+  "kappa_point": 0.0092,
+  "kappa_bootstrap_mean": 0.0092,
+  "kappa_lo": 0.0084,
+  "kappa_hi": 0.01,
+  "ci_width": 0.0016,
+  "interpretation": "slight",
+  "ci_includes_zero": false,
+  "b_bootstrap": 500
+}

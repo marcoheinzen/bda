@@ -1,0 +1,12 @@
+modality,n_models,auc_mean,auc_median,auc_max,auc_min,best_model
+multimodal_all,55,0.745,0.774,0.865,0.522,NB11e_dietrich28__block_stats__LightGBM-Optuna
+multimodal_SAR+MS,9,0.666,0.656,0.851,0.544,NB11a_F4_F7__fusion_ms_cohdrop__LightGBM-MIA-Optuna
+SAR_card+coh,8,0.653,0.636,0.846,0.551,NB11a_F3__fusion_card_cohdrop__LightGBM-MIA-Optuna
+SAR_coh_unsupervised,34,0.628,0.628,0.829,0.191,B0_single_s1_coh_drop_countM
+MS_only,26,0.668,0.66,0.818,0.496,NB11d_A9_A10_composite_prepost__composite_prepost_bands__LightGBM-MIA-Optuna
+SAR_card_only,10,0.681,0.715,0.813,0.486,NB11c_A13_A14_A19_card_changes__prepost_single_card__LightGBM-MIA-Optuna
+SAR_coh_only,9,0.584,0.614,0.8,0.205,NB11c_A13_A14_A19_card_changes__coh_drop__LightGBM-MIA-Optuna
+SAR_unsupervised,7,0.508,0.567,0.681,0.274,B3_logratio_VV
+MS_unsupervised,4,0.64,0.638,0.661,0.623,B3_logratio_NDVI
+SAR_all,1,0.588,0.588,0.588,0.588,D6_sar_only
+other,141,,,,,NB11c_A22_lu_change__lu_change__LightGBM-MIA-Optuna

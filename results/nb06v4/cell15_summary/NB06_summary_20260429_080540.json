@@ -1,0 +1,33 @@
+{
+  "created": "2026-04-29T08:05:40.164049",
+  "notebook": "NB06V4 v1",
+  "source": "V4 parquets + bda_points via bda.sqlite catalog",
+  "cities_processed": [
+    "Avdiivka",
+    "Bucha",
+    "Chernihiv",
+    "Chornobaivka",
+    "Dmytrivka",
+    "Hostomel",
+    "Irpin",
+    "Kharkiv",
+    "Kherson",
+    "Kramatorsk",
+    "Lysychansk",
+    "Makariv",
+    "Mariupol",
+    "Moschun",
+    "Okhtyrka",
+    "Rubizhne",
+    "Sievierodonetsk",
+    "Trostianets",
+    "Volnovakha"
+  ],
+  "n_cities": 19,
+  "n_points_total": 62043,
+  "n_features_total": 528,
+  "feature_groups": {
+    "ms_bands": 216,
+    "ms_indices": 234
+  }
+}

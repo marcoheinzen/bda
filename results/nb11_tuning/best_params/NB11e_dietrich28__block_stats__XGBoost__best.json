@@ -1,0 +1,36 @@
+{
+  "study_tag": "NB11e_dietrich28__block_stats__XGBoost",
+  "notebook": "NB11e_dietrich28",
+  "best_params": {
+    "n_estimators": 521,
+    "max_depth": 10,
+    "learning_rate": 0.010636066512540286,
+    "min_child_weight": 20,
+    "subsample": 0.9162213204002109,
+    "colsample_bytree": 0.6061695553391381,
+    "reg_alpha": 0.36364993441420124,
+    "reg_lambda": 0.36680901970686763
+  },
+  "tuned_auc": 0.8565190253002182,
+  "baseline_auc": 0.8302795858107583,
+  "delta_auc": 0.026239439489459837,
+  "mean_folds_auc": 0.7442949427327459,
+  "std_folds_auc": 0.07430866951914487,
+  "fold_aucs": [
+    0.7482984857960703,
+    0.6245812813696453,
+    0.7817708139146873,
+    0.7170917710472373,
+    0.8497323615360897
+  ],
+  "n_trials_done": 23,
+  "n_trials_requested": 200,
+  "patience": 40,
+  "n_features": 56,
+  "n_buildings": 598595,
+  "n_cities": 21,
+  "manifest_key": "block_stats",
+  "parquet_id": "A15",
+  "feature_set": "dietrich28",
+  "classifier": "XGBoost"
+}

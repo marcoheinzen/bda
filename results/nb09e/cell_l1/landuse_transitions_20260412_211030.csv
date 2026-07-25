@@ -1,0 +1,26 @@
+transition,n,n_damaged,rate
+urban -> bare_soil,3975,258,0.0649056603773585
+urban -> snow,210,11,0.05238095238095238
+bare_soil -> snow,67,3,0.04477611940298507
+vegetation -> bare_soil,46,2,0.043478260869565216
+urban -> vegetation,425,17,0.04
+urban -> urban,47654,1695,0.03556889243295421
+bare_soil -> sparse_veg,15217,490,0.032200828021291976
+urban -> sparse_veg,20206,650,0.03216866277343363
+bare_soil -> vegetation,1535,44,0.028664495114006514
+sparse_veg -> snow,184,5,0.02717391304347826
+bare_soil -> bare_soil,11529,294,0.025500910746812388
+bare_soil -> urban,18966,458,0.024148476220605293
+snow -> urban,510,12,0.023529411764705882
+sparse_veg -> vegetation,6711,117,0.01743406347787215
+sparse_veg -> bare_soil,5826,94,0.01613456917267422
+sparse_veg -> urban,18734,274,0.014625814027970535
+vegetation -> urban,148,2,0.013513513513513514
+sparse_veg -> sparse_veg,113097,1392,0.012308018780339
+snow -> bare_soil,294,3,0.01020408163265306
+snow -> sparse_veg,809,3,0.003708281829419036
+vegetation -> vegetation,3909,14,0.003581478639038117
+vegetation -> sparse_veg,6935,21,0.0030281182408074983
+snow -> snow,4,0,0.0
+snow -> vegetation,34,0,0.0
+vegetation -> snow,1,0,0.0

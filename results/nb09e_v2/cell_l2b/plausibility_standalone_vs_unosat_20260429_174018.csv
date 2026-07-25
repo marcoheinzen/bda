@@ -1,0 +1,9 @@
+signal,description,higher_is_damage,auc,avg_precision,mwu_pvalue,damaged_median,undamaged_median,delta_median,n_valid
+ndvi_delta,"NDVI delta post-pre (negative = damage, vegetation loss)",False,0.5995,0.1545,1.2640141955356883e-183,0.0237,0.0397,-0.016,62043
+s2__lu__urban_retained,LU: urban retained mean (higher = no damage),False,0.5,0.1302,1.0,1.0,1.0,0.0,62043
+bldg_reliable,"No area data, all reliable",True,0.5,0.1304,1.0,1.0,1.0,0.0,63243
+plausibility_score,Combined plausibility score (weighted landuse + NDVI + COH + size),True,0.499,0.1302,0.5030338954266436,0.0,0.0,0.0,63243
+s2__lu__date_persistent_loss,LU: persistent loss event date (earlier = damage during battle),True,0.4913,0.128,0.00496240816177736,20220528.0,20220528.0,0.0,62043
+coh_drop,COH drop from A14: s1__coh__max_drop,True,0.4851,0.1298,9.423765297656745e-06,0.109,0.109,0.0,51800
+s2__lu__loss_count,LU: persistent loss count (higher = damage),True,0.4741,0.1229,6.011910936295685e-16,6.0,6.0,0.0,62043
+s2__lu__loss_fraction,LU: persistent loss fraction (higher = damage),True,0.431,0.1135,1.687033325755206e-97,0.5556,0.5556,0.0,62043

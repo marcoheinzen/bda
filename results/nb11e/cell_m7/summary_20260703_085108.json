@@ -1,0 +1,11 @@
+{
+  "n_tuned_experiments_in_registry": 33,
+  "n_paired_with_baseline": 31,
+  "n_orphan_no_baseline": 2,
+  "delta_auc_pooled_mean": 0.02974555034397947,
+  "delta_auc_pooled_median": 0.03024485932233445,
+  "delta_auc_pooled_min": -0.006989676527646815,
+  "delta_auc_pooled_max": 0.16066299594257472,
+  "n_positive_lift": 30,
+  "n_negative_lift": 1
+}

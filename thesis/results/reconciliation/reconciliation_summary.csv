@@ -1,0 +1,7 @@
+id,item,resolution
+C2,feature count,"No single number: tier-dependent (block_stats V2 t0/t1/t2 = 745/183/897 cols); differs V2 (buildings) vs V3-V7 (points); cite SHARED-across-tiers feature set for the modelled unit; dietrich28 is a column subset, not a parquet"
+C6,match radius,"Operative = 10 m (match_distance.max()=10.000 m, 0 rows >10 m); 15 m appears only as a stale reassignment + plot label in a diagnostic cell"
+C7,V3 point rows,"On disk = 63,243, all damage_binary>=0; the 62,043 figure in some notes is NOT reproduced by the current parquet (reconcile docs to 63,243)"
+C8,y_true unit,"Building-level (V2: 7,332 pos / 598,595 labeled / 907,371 total) vs point-level (V3-V7: 8,247 pos / 63,243); points-per-building >1 (ratio 1.12); state the unit with every count"
+footprint,footprint source,"Overture primary, OSM comparison in NB01 (01b); comparator theses use OSM only; completeness caveat = denominator bias (a destroyed building absent from the footprint layer is dropped)"
+OOF,OOF coverage,"TWO roots: RESULTS_ROOT/<nb>/oof_predictions AND DRIVE_ROOT/data/outputs/<NB>/...; 1,776 OOF parquet files; NB11 (Optuna) OOF under data/outputs/NB11_V2/oof; N1 must read both roots"

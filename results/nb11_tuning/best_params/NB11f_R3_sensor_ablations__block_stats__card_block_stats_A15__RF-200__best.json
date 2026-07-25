@@ -1,0 +1,33 @@
+{
+  "study_tag": "NB11f_R3_sensor_ablations__block_stats__card_block_stats_A15__RF-200",
+  "notebook": "NB11f_R3_sensor_ablations",
+  "best_params": {
+    "n_estimators": 593,
+    "max_depth": 10,
+    "min_samples_leaf": 8,
+    "min_samples_split": 11,
+    "max_features": 0.5
+  },
+  "tuned_auc": 0.8209933070364775,
+  "baseline_auc": 0.782386954923191,
+  "delta_auc": 0.03860635211328656,
+  "mean_folds_auc": 0.7077132353425475,
+  "std_folds_auc": 0.07130913845363931,
+  "fold_aucs": [
+    0.6674633524774397,
+    0.6504964129103191,
+    0.7517355143113869,
+    0.6417935738045206,
+    0.8270773232090709
+  ],
+  "n_trials_done": 17,
+  "n_trials_requested": 200,
+  "patience": 40,
+  "n_features": 780,
+  "n_buildings": 598595,
+  "n_cities": 21,
+  "manifest_key": "block_stats",
+  "parquet_id": "A15_R3",
+  "label": "card_block_stats_A15",
+  "classifier": "RF-200"
+}

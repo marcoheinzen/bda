@@ -1,0 +1,11 @@
+{
+  "notebook": "NB11b_v5",
+  "groups": [
+    "buildings_v2",
+    "points_v3plus"
+  ],
+  "n_models": {
+    "buildings_v2": 325,
+    "points_v3plus": 219
+  }
+}

@@ -1,0 +1,5 @@
+set,k,complete_cities,friedman_chi2,friedman_p
+best_per_modality,10,8,49.7455,0.0
+best_per_classifier_anyFS,11,12,13.0275,0.2221
+dietrich28_classifier_fixed,8,11,27.8697,0.0002
+top10,10,11,33.8764,0.0001

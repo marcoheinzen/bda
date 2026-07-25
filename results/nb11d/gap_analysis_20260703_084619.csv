@@ -1,0 +1,110 @@
+notebook,issue,detail,severity,fix
+NB06,NOT_REGISTERED,NB06 has no registry entries,HIGH,Add bda_results to NB06 and rerun
+NB07,NOT_REGISTERED,NB07 has no registry entries,HIGH,Add bda_results to NB07 and rerun
+NB08a,NOT_REGISTERED,NB08a has no registry entries,HIGH,Add bda_results to NB08a and rerun
+NB09a,NOT_REGISTERED,NB09a has no registry entries,HIGH,Add bda_results to NB09a and rerun
+NB09c,NOT_REGISTERED,NB09c has no registry entries,HIGH,Add bda_results to NB09c and rerun
+NB09e,NOT_REGISTERED,NB09e has no registry entries,HIGH,Add bda_results to NB09e and rerun
+NB09e_v2,BELOW_RANDOM,L4b_accumulator_s2__date_worst_swir_rise_mean: AUC=0.5000 on bda_ms_change_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v5,BELOW_RANDOM,C_A19_card_drop: AUC=0.4998 on bda_card_drop_v5,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v5,BELOW_RANDOM,C_A14_coh_drop: AUC=0.4995 on bda_coh_drop_v5,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09d,BELOW_RANDOM,d8a_rgb_scratch: AUC=0.4994 on pixel_segmentation,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v7,BELOW_RANDOM,C_A27_block_accum_card: AUC=0.4994 on bda_block_accum_card_v7,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09eV3_v1,BELOW_RANDOM,plausibility_standalone_plausibility_score: AUC=0.4990 on bda_plausibility_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09eV3_v1,BELOW_RANDOM,L4b_accumulator_s2__mahalanobis_exceedance_count: AUC=0.4989 on bda_ms_maha_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09cV3_v1,BELOW_RANDOM,E7b_GaussianNB: AUC=0.4983 on bda_fusion_composite_blockstats_v3,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV5_v1,BELOW_RANDOM,R3b_coh_only: AUC=0.4977 on bda_fusion_composite_blockstats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09b,BELOW_RANDOM,B7_UISEM_card+coh+delta: AUC=0.4973 on bda_product_prepost,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v3,BELOW_RANDOM,C_A27_block_accum_card: AUC=0.4955 on bda_block_accum_card_v3,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v5,BELOW_RANDOM,C_A27_block_accum_card: AUC=0.4953 on bda_block_accum_card_v5,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v6,BELOW_RANDOM,C_A27_block_accum_card: AUC=0.4953 on bda_block_accum_card_v6,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v6,BELOW_RANDOM,C_A14_coh_drop: AUC=0.4947 on bda_coh_drop_v6,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09cV3_v1,BELOW_RANDOM,E2_LightGBM_card: AUC=0.4940 on bda_fusion_composite_blockstats_v3,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v7,BELOW_RANDOM,C_A19_card_drop: AUC=0.4935 on bda_card_drop_v7,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV3_v1,BELOW_RANDOM,R4_tier0_dietrich28: AUC=0.4932 on bda_block_stats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV3_v1,BELOW_RANDOM,R4b_tier0_card: AUC=0.4932 on bda_block_stats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV4_v1,BELOW_RANDOM,R3b_coh_only: AUC=0.4927 on bda_fusion_composite_blockstats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v7,BELOW_RANDOM,C_A14_coh_drop: AUC=0.4921 on bda_coh_drop_v7,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09eV3_v1,BELOW_RANDOM,L1b_accumulator_s2__lu__date_persistent_loss: AUC=0.4913 on bda_lu_change_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09eV3_v1,BELOW_RANDOM,plausibility_standalone_s2__lu__date_persistent_loss: AUC=0.4913 on bda_plausibility_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09eV3_v1,BELOW_RANDOM,L4b_accumulator_s2__mahalanobis_running_max: AUC=0.4909 on bda_ms_maha_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09d,BELOW_RANDOM,d10_ms_post_rgb: AUC=0.4905 on pixel_segmentation,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v4,BELOW_RANDOM,C_A27_block_accum_card: AUC=0.4898 on bda_block_accum_card_v4,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV4_v1,BELOW_RANDOM,R3_coh_only_A14: AUC=0.4878 on bda_coh_drop_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09d,BELOW_RANDOM,d10_card_post: AUC=0.4862 on pixel_segmentation,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09b,BELOW_RANDOM,B2_CCD_exact_vh: AUC=0.4862 on bda_temporal_coh,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09cV3_v1,BELOW_RANDOM,E6_A_impute+obs_coh_only: AUC=0.4852 on bda_fusion_composite_blockstats_v3,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09cV3_v1,BELOW_RANDOM,E6_A_impute+obs_coh_only: AUC=0.4852 on bda_fusion_composite_blockstats_v3,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV3_v1,BELOW_RANDOM,R3b_coh_only: AUC=0.4852 on bda_fusion_composite_blockstats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09eV3_v1,BELOW_RANDOM,plausibility_standalone_coh_drop: AUC=0.4851 on bda_plausibility_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09e_v2,BELOW_RANDOM,plausibility_standalone_lu_plausible_damage: AUC=0.4850 on bda_plausibility_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09e_v2,BELOW_RANDOM,L1_landuse_transition_binary: AUC=0.4850 on bda_composite_prepost_landuse_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV5_v1,BELOW_RANDOM,R3_coh_only_A14: AUC=0.4846 on bda_coh_drop_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09cV3_v1,BELOW_RANDOM,E6_B_nativeNaN_coh_only: AUC=0.4838 on bda_fusion_composite_blockstats_v3,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09cV3_v1,BELOW_RANDOM,E6_B_nativeNaN_coh_only: AUC=0.4838 on bda_fusion_composite_blockstats_v3,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09cV3_v1,BELOW_RANDOM,E2_LightGBM_coh: AUC=0.4838 on bda_fusion_composite_blockstats_v3,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV5_v1,BELOW_RANDOM,R4_tier2_ms: AUC=0.4816 on bda_composite_prepost_bands_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09bV3_v1,BELOW_RANDOM,B7_UISEM_coh_only: AUC=0.4807 on bda_fusion_composite_blockstats_v3,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV3_v1,BELOW_RANDOM,R0c_roll7_assessment_only: AUC=0.4801 on bda_rolling_stats_roll7_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV5_v1,BELOW_RANDOM,R0c_roll7_assessment_only: AUC=0.4801 on bda_rolling_stats_roll7_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV4_v1,BELOW_RANDOM,R0c_roll7_assessment_only: AUC=0.4801 on bda_rolling_stats_roll7_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09b,BELOW_RANDOM,B2_CCD_exact_vv: AUC=0.4799 on bda_temporal_coh,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09cV3_v1,BELOW_RANDOM,E7_SVM_linear: AUC=0.4793 on bda_fusion_composite_blockstats_v3,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09d,BELOW_RANDOM,d5b_exp_xbd_finetune: AUC=0.4754 on pixel_segmentation,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v7,BELOW_RANDOM,C_A20_ms_change: AUC=0.4748 on bda_ms_change_v7,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v4,BELOW_RANDOM,C_A20_ms_change: AUC=0.4748 on bda_ms_change_v4,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v5,BELOW_RANDOM,C_A20_ms_change: AUC=0.4748 on bda_ms_change_v5,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v6,BELOW_RANDOM,C_A20_ms_change: AUC=0.4748 on bda_ms_change_v6,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV5_v1,BELOW_RANDOM,R0c_roll3_assessment_only: AUC=0.4742 on bda_rolling_stats_roll3_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV4_v1,BELOW_RANDOM,R0c_roll3_assessment_only: AUC=0.4742 on bda_rolling_stats_roll3_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV3_v1,BELOW_RANDOM,R0c_roll3_assessment_only: AUC=0.4742 on bda_rolling_stats_roll3_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09eV3_v1,BELOW_RANDOM,plausibility_standalone_s2__lu__loss_count: AUC=0.4741 on bda_plausibility_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09eV3_v1,BELOW_RANDOM,L1b_accumulator_s2__lu__loss_count: AUC=0.4741 on bda_lu_change_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09b,BELOW_RANDOM,B2_CCD_approx_coh3: AUC=0.4737 on bda_product_prepost,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08b,BELOW_RANDOM,BDA__COH_DROP__LightGBM: AUC=0.4696 on BDA,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09d,BELOW_RANDOM,d10_card_prepost: AUC=0.4680 on pixel_segmentation,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v3,BELOW_RANDOM,C_A20_ms_change: AUC=0.4663 on bda_ms_change_v3,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09aV3_v1,BELOW_RANDOM,R4_tier2_ms: AUC=0.4657 on bda_composite_prepost_bands_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08b,BELOW_RANDOM,BDA__COH_DROP__XGBoost: AUC=0.4652 on BDA,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08c_v2,BELOW_RANDOM,C_A21_ms_maha: AUC=0.4447 on bda_ms_maha_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09b,BELOW_RANDOM,B5_sub_RF: AUC=0.4433 on bda_product_prepost,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB08b,BELOW_RANDOM,BDA__COH_DROP__GBM: AUC=0.4382 on BDA,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09eV3_v1,BELOW_RANDOM,L1b_accumulator_s2__lu__loss_fraction: AUC=0.4310 on bda_lu_change_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09eV3_v1,BELOW_RANDOM,plausibility_standalone_s2__lu__loss_fraction: AUC=0.4310 on bda_plausibility_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09d,BELOW_RANDOM,d10_ms_prepost: AUC=0.4283 on pixel_segmentation,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09b,BELOW_RANDOM,B2_CCD_approx_coh6: AUC=0.4275 on bda_product_prepost,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09a_v2,BELOW_RANDOM,R4b_tier1_all: AUC=0.4246 on bda_fusion_composite_blockstats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09a_v2,BELOW_RANDOM,R4_tier1_ms: AUC=0.4232 on bda_composite_prepost_bands_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09d,BELOW_RANDOM,d5a_xbd_zeroshot: AUC=0.4145 on pixel_segmentation,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09d,BELOW_RANDOM,d8c_xbd_zeroshot_rgb: AUC=0.4145 on pixel_segmentation,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09a_v2,BELOW_RANDOM,R4b_tier1_card: AUC=0.4141 on bda_block_stats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09a_v2,BELOW_RANDOM,R4_tier1_dietrich28: AUC=0.4141 on bda_block_stats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09b,BELOW_RANDOM,B7_UISEM_delta_only: AUC=0.4121 on bda_product_prepost,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09a_v2,BELOW_RANDOM,R4b_tier2_card: AUC=0.3845 on bda_block_stats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09a_v2,BELOW_RANDOM,R4_tier2_dietrich28: AUC=0.3845 on bda_block_stats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09e_v2,BELOW_RANDOM,L4b_accumulator_s2__mahalanobis_exceedance_count_mean: AUC=0.3780 on bda_ms_maha_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09e_v2,BELOW_RANDOM,plausibility_standalone_s2__lu__date_persistent_loss_mean: AUC=0.3688 on bda_plausibility_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09e_v2,BELOW_RANDOM,L1b_accumulator_s2__lu__date_persistent_loss_mean: AUC=0.3688 on bda_lu_change_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09e_v2,BELOW_RANDOM,L1b_accumulator_s2__lu__loss_count_mean: AUC=0.3490 on bda_lu_change_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09e_v2,BELOW_RANDOM,plausibility_standalone_s2__lu__loss_count_mean: AUC=0.3490 on bda_plausibility_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09c_v2,BELOW_RANDOM,E7_SVM_rbf: AUC=0.3251 on bda_fusion_composite_blockstats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09c_v2,BELOW_RANDOM,E7_SVM_rbf: AUC=0.3251 on bda_fusion_composite_blockstats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09a_v2,BELOW_RANDOM,R4_tier2_ms: AUC=0.3240 on bda_composite_prepost_bands_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09e_v2,BELOW_RANDOM,L1b_accumulator_s2__lu__loss_fraction_mean: AUC=0.3239 on bda_lu_change_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09e_v2,BELOW_RANDOM,plausibility_standalone_s2__lu__loss_fraction_mean: AUC=0.3239 on bda_plausibility_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09c_v2,BELOW_RANDOM,E7_SVM_linear: AUC=0.3237 on bda_fusion_composite_blockstats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09c_v2,BELOW_RANDOM,E7_SVM_linear: AUC=0.3237 on bda_fusion_composite_blockstats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09a_v2,BELOW_RANDOM,R4b_tier2_all: AUC=0.2961 on bda_fusion_composite_blockstats_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09a_v2,BELOW_RANDOM,R3_coh_only_A14: AUC=0.2050 on bda_coh_drop_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09e_v2,BELOW_RANDOM,plausibility_standalone_coh_drop: AUC=0.1908 on bda_plausibility_v2,CRITICAL,Data pipeline bug or assessment NaN collapse. Check parquet features and NaN rates.
+NB09d,DONE,"Post-battle MS composite bug fixed (v25). Patches now single-scene RGB from NB03e P7, not 3-year median.",INFO,N/A. xBD-on-xBD AUC=0.876 valid. BDA DL experiments need rerun on single-scene patches.
+NB07,DONE,Dietrich-28 assessment NaN fixed. min_obs reduced 3->2 in NB03e v37 P1/P1b/P1c. T0 cities had only 2 assessment CARD scenes.,INFO,N/A. Rerun NB03e -> NB05b -> NB07 to propagate.
+NB03d,DONE,"Plan-based audit/prune refactored. Wrong orbits, wrong dates, corrupt TIFs pruned. Data stack clean.",INFO,N/A
+NB03e,DONE,"Plan-based derived products refactored. Composites, landuse, temporal stats, rolling windows, block stats.",INFO,N/A
+NB03f,DONE,Derived product audit/prune. Stale derived products from pre-plan era removed.,INFO,N/A
+NB02a,DONE,Pre-battle SLC pairs for ongoing-conflict cities now handled (v6). select_prebattle_baseline added.,INFO,N/A. Note: Cell 0 markdown L101 still says BUG — update the header.
+NB10,NOT_BUILT,NB10 not yet created,INFO,Build notebook
+NB11a,NOT_BUILT,NB11a not yet created,INFO,Build notebook
+NB11b,NOT_BUILT,NB11b not yet created,INFO,Build notebook
+NB11c,NOT_BUILT,NB11c not yet created,INFO,Build notebook
+NB12,NOT_BUILT,NB12 not yet created,INFO,Build notebook

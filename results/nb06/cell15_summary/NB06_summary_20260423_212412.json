@@ -1,0 +1,33 @@
+{
+  "created": "2026-04-23T21:24:12.317765",
+  "notebook": "NB06 v2",
+  "source": "bda_product_prepost + bda_buildings via bda.sqlite catalog",
+  "cities_processed": [
+    "Avdiivka",
+    "Bucha",
+    "Chernihiv",
+    "Chornobaivka",
+    "Dmytrivka",
+    "Hostomel",
+    "Irpin",
+    "Kharkiv",
+    "Kherson",
+    "Kramatorsk",
+    "Lysychansk",
+    "Makariv",
+    "Mariupol",
+    "Moschun",
+    "Okhtyrka",
+    "Rubizhne",
+    "Sievierodonetsk",
+    "Trostianets",
+    "Volnovakha"
+  ],
+  "n_cities": 19,
+  "n_buildings_total": 480313,
+  "n_features_total": 216,
+  "feature_groups": {
+    "ms_bands": 81,
+    "ms_indices": 54
+  }
+}

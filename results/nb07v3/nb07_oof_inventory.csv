@@ -1,0 +1,42 @@
+file,model_id,variant_id,n_rows,TP,FN,FP,TN
+oof_D1_blk_post_block_all__20260429_083322_06ea54.parquet,D1_blk_post_block_all,feat_set=post_block_all,63243,6,8241,16,54980
+oof_D1_blk_post_block_mean__20260429_083322_06ea54.parquet,D1_blk_post_block_mean,feat_set=post_block_mean,63243,125,8122,897,54099
+oof_D1_blk_pre+post_all__20260429_083322_06ea54.parquet,D1_blk_pre+post_all,feat_set=pre+post_all,63243,4,8243,18,54978
+oof_D1_blk_pre+post_mean__20260429_083322_06ea54.parquet,D1_blk_pre+post_mean,feat_set=pre+post_mean,63243,154,8093,1130,53866
+oof_D1_blk_pre_baseline_all__20260429_083322_06ea54.parquet,D1_blk_pre_baseline_all,feat_set=pre_baseline_all,63243,5,8242,3,54993
+oof_D1_blk_pre_baseline_mean__20260429_083322_06ea54.parquet,D1_blk_pre_baseline_mean,feat_set=pre_baseline_mean,63243,125,8122,897,54099
+oof_D1_delta_only__20260429_083322_06ea54.parquet,D1_delta_only,feat_set=delta_only,63243,129,8118,810,54186
+oof_D1_post_only__20260429_083322_06ea54.parquet,D1_post_only,feat_set=post_only,63243,124,8123,862,54134
+oof_D1_pre+post+delta__20260429_083322_06ea54.parquet,D1_pre+post+delta,feat_set=pre+post+delta,63243,33,8214,94,54902
+oof_D1_pre+post__20260429_083322_06ea54.parquet,D1_pre+post,feat_set=pre+post,63243,20,8227,80,54916
+oof_D1_pre_only__20260429_083322_06ea54.parquet,D1_pre_only,feat_set=pre_only,63243,138,8109,865,54131
+oof_D1c_post_composite__20260429_083322_06ea54.parquet,D1c_post_composite,post_only,62043,193,7887,196,53767
+oof_D1c_pre_composite__20260429_083322_06ea54.parquet,D1c_pre_composite,pre_only,62043,113,7967,133,53830
+oof_D1d_delta_only__20260429_083322_06ea54.parquet,D1d_delta_only,feat_set=delta_only,63243,129,8118,810,54186
+oof_D1d_post_only__20260429_083322_06ea54.parquet,D1d_post_only,feat_set=post_only,63243,124,8123,862,54134
+oof_D1d_pre+post+delta__20260429_083322_06ea54.parquet,D1d_pre+post+delta,feat_set=pre+post+delta,63243,33,8214,94,54902
+oof_D1d_pre_only__20260429_083322_06ea54.parquet,D1d_pre_only,feat_set=pre_only,63243,138,8109,865,54131
+oof_D1e_zonal_max__20260429_083322_06ea54.parquet,D1e_zonal_max,zonal=max,63243,25,8222,16,54980
+oof_D1e_zonal_mean__20260429_083322_06ea54.parquet,D1e_zonal_mean,zonal=mean,63243,13,8234,16,54980
+oof_D1e_zonal_median__20260429_083322_06ea54.parquet,D1e_zonal_median,zonal=median,63243,9,8238,15,54981
+oof_D1e_zonal_min__20260429_083322_06ea54.parquet,D1e_zonal_min,zonal=min,63243,27,8220,20,54976
+oof_D1e_zonal_std__20260429_083322_06ea54.parquet,D1e_zonal_std,zonal=std,63243,3,8244,15,54981
+oof_D1f_roll3_assess__20260429_083322_06ea54.parquet,D1f_roll3_assess,window=roll3_assess_only,63243,2440,5807,17884,37112
+oof_D1f_roll7_assess__20260429_083322_06ea54.parquet,D1f_roll7_assess,window=roll7_assess_only,63243,2440,5807,17884,37112
+oof_D1i_allblocks_groupkfold__20260429_083322_06ea54.parquet,D1i_allblocks_groupkfold,groupkfold_cv,63243,6,8241,0,54996
+oof_D1i_allblocks_random__20260429_083322_06ea54.parquet,D1i_allblocks_random,random_cv,63243,200,8047,355,54641
+oof_D1j_dynamic_groupkfold__20260429_083322_06ea54.parquet,D1j_dynamic_groupkfold,groupkfold_cv,293116,8138,21405,56901,206672
+oof_D1j_dynamic_random__20260429_083322_06ea54.parquet,D1j_dynamic_random,random_cv,293116,8652,20891,61235,202338
+oof_D2_all_features__20260429_083322_06ea54.parquet,D2_all_features,ablation=All features (clean),62043,35,8045,61,53902
+oof_D2_coh-only__20260429_083322_06ea54.parquet,D2_coh-only,ablation=COH-only (coherence baselines),62043,145,7935,1109,52854
+oof_D2_ms-only__20260429_083322_06ea54.parquet,D2_ms-only,ablation=MS-only (optical composites),62043,110,7970,142,53821
+oof_D2_sar-only__20260429_083322_06ea54.parquet,D2_sar-only,ablation=SAR-only (Dietrich equivalent),62043,152,7928,331,53632
+oof_D2_sar_+_ms_+_coh__20260429_083322_06ea54.parquet,D2_sar_+_ms_+_coh,ablation=SAR + MS + COH (full),62043,32,8048,55,53908
+oof_D2_sar_+_ms__20260429_083322_06ea54.parquet,D2_sar_+_ms,ablation=SAR + MS (multimodal),62043,33,8047,51,53912
+oof_D3_clean__20260429_083322_06ea54.parquet,D3_clean,leakage_demo_clean,51293,69,6798,88,44338
+oof_D3_leaky__20260429_083322_06ea54.parquet,D3_leaky,leakage_demo_with_leaks,51293,68,6799,62,44364
+oof_D4_a9_ms_only__20260429_083322_06ea54.parquet,D4_a9_ms_only,nan_strategy=no_nan_baseline,62043,104,7976,128,53835
+oof_D4_f8_strategy_B_impute__20260429_083322_06ea54.parquet,D4_f8_strategy_B_impute,nan_strategy=B_impute_all_rows,62043,35,8045,61,53902
+oof_D6_fusion__20260429_083322_06ea54.parquet,D6_fusion,sensor=fusion_MS_SAR_COH,51293,69,6798,88,44338
+oof_D6_ms_only__20260429_083322_06ea54.parquet,D6_ms_only,sensor=MS_only,62043,104,7976,128,53835
+oof_D6_sar_only__20260429_083322_06ea54.parquet,D6_sar_only,sensor=SAR_only,63243,3,8244,4,54992

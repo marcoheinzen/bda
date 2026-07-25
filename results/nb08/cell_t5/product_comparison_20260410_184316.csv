@@ -1,0 +1,9 @@
+product,city,auc,n_feat
+raw_P1,Lysychansk,0.4773691344665216,54
+raw_P1,Mariupol,0.5728756272615547,54
+raw_P1,Rubizhne,0.43901360947849877,54
+raw_P1,Sievierodonetsk,0.6102639766755042,54
+blk_post,Lysychansk,0.4999917754365186,6
+blk_post,Mariupol,0.5974560015478756,54
+blk_post,Rubizhne,0.41622779511236296,48
+blk_post,Sievierodonetsk,0.614066148705514,48

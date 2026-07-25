@@ -1,0 +1,36 @@
+{
+  "study_tag": "NB11e_all_multimodal__fusion_composite_blockstats__XGBoost",
+  "notebook": "NB11e_all_multimodal",
+  "best_params": {
+    "n_estimators": 734,
+    "max_depth": 12,
+    "learning_rate": 0.010512649118874492,
+    "min_child_weight": 2,
+    "subsample": 0.5581890006562221,
+    "colsample_bytree": 0.6227818193697767,
+    "reg_alpha": 0.21407953799342228,
+    "reg_lambda": 1.7287662217436988
+  },
+  "tuned_auc": 0.8129898087350882,
+  "baseline_auc": 0.8054271454442101,
+  "delta_auc": 0.007562663290878069,
+  "mean_folds_auc": 0.7141607538583047,
+  "std_folds_auc": 0.07213726589082586,
+  "fold_aucs": [
+    0.7614680978887264,
+    0.6052031291434633,
+    0.672263213585266,
+    0.7169821497190096,
+    0.8148871789550585
+  ],
+  "n_trials_done": 75,
+  "n_trials_requested": 200,
+  "patience": 40,
+  "n_features": 915,
+  "n_buildings": 480313,
+  "n_cities": 19,
+  "manifest_key": "fusion_composite_blockstats",
+  "parquet_id": "F8",
+  "feature_set": "all_multimodal",
+  "classifier": "XGBoost"
+}

@@ -1,0 +1,11 @@
+pair_type,n_pairs,kappa_mean,kappa_median
+MS-MS,45,0.1895,0.0614
+MS-SAR,326,0.0042,0.0018
+MS-multimodal,252,0.1071,0.0496
+MS-other,1104,0.049,0.0045
+SAR-SAR,564,0.0378,0.0003
+SAR-multimodal,891,0.0101,0.0026
+SAR-other,3980,0.0197,0.0022
+multimodal-multimodal,325,0.1953,0.1028
+multimodal-other,2996,0.0658,0.0065
+other-other,6716,0.0453,0.0037

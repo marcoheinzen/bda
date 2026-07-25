@@ -1,0 +1,2 @@
+notebook,parquet_id,manifest_key,classifier,baseline_auc,baseline_auc_expected,tuned_auc,delta_auc,mean_folds_auc,std_folds_auc,n_trials_requested,n_trials_done,early_stopped,patience,n_features,n_buildings,n_cities,study_tag
+NB11b_A15_block_stats,A15,block_stats,LightGBM-MIA,0.8226507979078755,0.823,0.8531321209719291,0.0304813230640536,0.6434434109853713,0.1472820841747259,200,49,True,40,780,598595,21,NB11b_A15_block_stats__block_stats__LightGBM-MIA

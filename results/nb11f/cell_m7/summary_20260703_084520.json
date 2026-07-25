@@ -1,0 +1,12 @@
+{
+  "n_tuned_studies": 31,
+  "n_classifiers_seen": 5,
+  "n_parquets_seen": 19,
+  "delta_auc_mean": 0.02974555034397947,
+  "delta_auc_median": 0.03024485932233445,
+  "delta_auc_max": 0.16066299594257472,
+  "n_positive_lift": 30,
+  "n_trials_done_mean": 72.7741935483871,
+  "n_trials_done_median": 65.0,
+  "n_trials_done_max": 177
+}

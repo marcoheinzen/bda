@@ -1,0 +1,36 @@
+parquet,id,format,n_features,n_rows,n_cities,n_excluded,excluded_cities,best_auc,best_feature,n_auc_gt_055,question
+fusion_composite_cohdrop,F7,wide,86,51293,11,8,"Borodyanka,Chernihiv,Chornobaivka,Kharkiv,Kherson,Kramatorsk,Makariv,Trostianets",0.6732,s2__composite__ndvi__post_winter_baseline,34,Q2: Composite + COH drop
+composite_prepost_bands,A9,wide,79,62043,19,0,,0.6718,s2__composite__ndvi__post_winter_baseline,34,Q3: Do composites work? (Dietrich baseline)
+fusion_composite_blockstats,F8,wide,409,62043,19,2,"Borodyanka,Mykolaiv",0.6718,s2__composite__ndvi__post_winter_baseline,44,Q6: Dietrich composite + block replication
+rolling_accum_ms,A25,long,45,670119,19,0,,0.6507,s2__b12__roll13__max_abs_delta,13,Q4b: Rolling-window matched-filter signal (MS)?
+composite_vs_scenes_landuse,A12,long,3,356046,18,0,,0.6281,pre_landuse,2,Q5: Per-scene landuse trajectory?
+fusion_indices_card_cohdrop,F6,long,18,1269080,11,9,"Borodyanka,Chernihiv,Chornobaivka,Kharkiv,Kherson,Kramatorsk,Makariv,Mykolaiv,Trostianets",0.6272,s2__mndwi,4,Q2: Indices + CARD + COH drop
+scene_indices,A5,long,9,794205,19,0,,0.6222,s2__ndvi,4,Q1: Do spectral indices outperform raw bands?
+fusion_indices_card,F5,long,11,1592501,19,2,"Borodyanka,Mykolaiv",0.6222,s2__ndvi,4,Q2: Indices + CARD
+composite_prepost_landuse,A10,wide,4,62043,19,0,,0.6186,landuse__post_winter_baseline,3,Q5: Does composite landuse change help?
+fusion_ms_cohdrop,F4,long,19,569716,11,8,"Borodyanka,Chernihiv,Chornobaivka,Kharkiv,Kherson,Kramatorsk,Makariv,Trostianets",0.6129,s2__b02,3,Q2: Optical + COH drop
+fusion_ms_card_cohdrop,F2,long,21,1195249,11,9,"Borodyanka,Chernihiv,Chornobaivka,Kharkiv,Kherson,Kramatorsk,Makariv,Mykolaiv,Trostianets",0.6129,s2__b02,3,Q2: Full multimodal
+scene_ms,A1,long,12,695385,19,0,,0.606,s2__b02,3,Q1: Does optical carry per-scene damage signal?
+fusion_ms_card,F1,long,14,1493681,19,2,"Borodyanka,Mykolaiv",0.606,s2__b02,3,Q2: Does MS+CARD beat either alone?
+scene_landuse,A4,long,1,794205,19,0,,0.5866,s2__landuse,1,Q5: Does landuse context help?
+block_stats,A15,wide,330,63243,21,0,,0.5743,s1__vh__blk01__running_max,8,Q6: Does Dietrich block approach work with GroupKFold?
+lu_change,A22,wide,8,62043,19,0,,0.569,s2__lu__loss_fraction,1,Q: Does persistent urban-to-other landuse loss carry signal?
+rolling_accum_card,A24,long,18,707648,21,0,,0.5669,s1__vh__roll13__running_max,4,Q4b: Rolling-window matched-filter signal (CARD)?
+rolling_card,A8,long,6,711255,21,0,,0.5622,s1__vh__roll13,3,Q4: Do rolling windows add value (CARD)?
+block_accum_coh,A26,wide,18,60076,17,0,,0.5531,s1__coh_vv__blk06__max_abs_delta,2,Q6b: Block-scope matched-filter signal (COH)?
+fusion_card_cohdrop,F3,long,9,658108,12,8,"Chernihiv,Chornobaivka,Kharkiv,Kherson,Kramatorsk,Makariv,Mykolaiv,Trostianets",0.5488,s1__vh,0,Q2: SAR-only multimodal
+rolling_stats_roll13,A18,wide,22,63243,21,0,,0.5474,s1__vh__baseline__max,0,Q4: Rolling stats (window=13)
+rolling_stats_roll7,A17,wide,38,63243,21,0,,0.5474,s1__vh__baseline__max,0,Q4: Rolling stats (window=7)
+rolling_stats_roll3,A16,wide,38,63243,21,0,,0.5474,s1__vh__baseline__max,0,Q4: Rolling stats (window=3)
+scene_nbr,A6,long,1,794205,19,0,,0.5455,s2__nbr,0,Q1: Does NBR carry signal?
+scene_card,A2,long,2,834134,21,0,,0.5426,s1__vh,0,Q1: Does CARD carry per-scene damage signal?
+rolling_coh,A7,long,3,350960,16,0,,0.5381,s1__coh_vv__roll13,0,Q4: Do rolling windows add value (COH)?
+prepost_single_card,A13,wide,6,63243,21,0,,0.5374,post_vh,0,Q3: Single-scene CARD pre/post
+rolling_accum_coh,A23,long,9,350960,16,0,,0.5337,s1__coh_vv__roll13__running_min,0,Q4b: Rolling-window matched-filter signal (COH)?
+block_accum_card,A27,wide,85,63243,21,0,,0.5279,s1__vh__blk04__rise_count,0,Q6b: Block-scope matched-filter signal (CARD)?
+coh_drop,A14,wide,7,51800,12,0,,0.5269,s1__coh__scenes_observed,0,Q1: Does cumulative COH drop carry signal?
+block_accum_ms,A28,wide,441,62043,19,0,,0.524,s2__b12__blk_pre02__running_max,0,Q6b: Block-scope matched-filter signal (MS)?
+scene_coh,A3,long,3,468995,18,0,,0.5235,s1__coh_vh,0,Q1: Does COH carry per-scene damage signal?
+card_drop,A19,wide,7,62043,19,0,,0.5122,s1__vv__drop_count,0,Q: Does cumulative CARD z-score drop carry signal?
+ms_maha,A21,wide,6,39428,18,0,,0.5091,s2__mahalanobis_running_max,0,Q: Does multi-band MS Mahalanobis distance carry signal?
+ms_change,A20,wide,9,39428,18,0,,0.5,s2__date_worst_swir_rise,0,Q: Does cumulative MS SWIR brightness + NBR anomaly carry signal?

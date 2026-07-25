@@ -1,0 +1,3 @@
+notebook,parquet_id,manifest_key,classifier,baseline_auc,baseline_auc_expected,tuned_auc,delta_auc,mean_folds_auc,std_folds_auc,n_trials_requested,n_trials_done,early_stopped,patience,n_features,n_buildings,n_cities,study_tag
+NB11d_A9_A10_composite_prepost,A9,composite_prepost_bands,LightGBM-MIA,0.7861845855287047,0.786,0.8181719408854559,0.031987355356751124,0.68197938387647,0.07995513261061847,200,177,True,40,135,480313,19,NB11d_A9_A10_composite_prepost__composite_prepost_bands__LightGBM-MIA
+NB11d_A9_A10_composite_prepost,A10,composite_prepost_landuse,LightGBM-MIA,0.7726624828756035,0.773,0.80282767828994,0.030165195414336488,0.6688884492952137,0.07051892856781744,200,65,True,40,4,480313,19,NB11d_A9_A10_composite_prepost__composite_prepost_landuse__LightGBM-MIA

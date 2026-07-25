@@ -1,0 +1,19 @@
+{
+  "generated": "2026-07-03T08:46:19.739810",
+  "tier_selection": [
+    0,
+    1,
+    2
+  ],
+  "n_experiments": 768,
+  "n_profiles": 0,
+  "n_gaps": 109,
+  "best_overall": {
+    "experiment": "xbd_on_xbd",
+    "notebook": "NB09d",
+    "auc": 0.9643322752531085,
+    "parquet": "pixel_segmentation",
+    "classifier": "U-Net",
+    "features": "patches_64x64"
+  }
+}

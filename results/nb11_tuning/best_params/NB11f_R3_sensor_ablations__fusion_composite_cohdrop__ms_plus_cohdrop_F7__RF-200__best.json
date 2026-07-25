@@ -1,0 +1,33 @@
+{
+  "study_tag": "NB11f_R3_sensor_ablations__fusion_composite_cohdrop__ms_plus_cohdrop_F7__RF-200",
+  "notebook": "NB11f_R3_sensor_ablations",
+  "best_params": {
+    "n_estimators": 314,
+    "max_depth": 7,
+    "min_samples_leaf": 17,
+    "min_samples_split": 20,
+    "max_features": "sqrt"
+  },
+  "tuned_auc": 0.8186624404801781,
+  "baseline_auc": 0.7719922325440326,
+  "delta_auc": 0.046670207936145514,
+  "mean_folds_auc": 0.7416757639967649,
+  "std_folds_auc": 0.04248364100058201,
+  "fold_aucs": [
+    0.7462187322740901,
+    0.7836622825430792,
+    0.6605711959535767,
+    0.753257019265726,
+    0.7646695899473522
+  ],
+  "n_trials_done": 154,
+  "n_trials_requested": 200,
+  "patience": 40,
+  "n_features": 145,
+  "n_buildings": 466704,
+  "n_cities": 18,
+  "manifest_key": "fusion_composite_cohdrop",
+  "parquet_id": "F7_R3",
+  "label": "ms_plus_cohdrop_F7",
+  "classifier": "RF-200"
+}

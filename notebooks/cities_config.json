@@ -1,0 +1,443 @@
+{
+  "Mariupol": {
+    "lat": 47.0956,
+    "lon": 37.5431,
+    "oblast": "Donetsk",
+    "tier": 0,
+    "priority": 1,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2022-05-20"
+  },
+  "Bakhmut": {
+    "lat": 48.5954,
+    "lon": 37.9999,
+    "oblast": "Donetsk",
+    "tier": 3,
+    "priority": 1,
+    "battle_start": "2022-05-17",
+    "battle_stop": "2023-05-20"
+  },
+  "Avdiivka": {
+    "lat": 48.1405,
+    "lon": 37.7454,
+    "oblast": "Donetsk",
+    "tier": 2,
+    "priority": 1,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2024-02-17"
+  },
+  "Sievierodonetsk": {
+    "lat": 48.9481,
+    "lon": 38.4936,
+    "oblast": "Luhansk",
+    "tier": 0,
+    "priority": 1,
+    "battle_start": "2022-05-05",
+    "battle_stop": "2022-06-25"
+  },
+  "Maryinka": {
+    "lat": 47.9431,
+    "lon": 37.5053,
+    "oblast": "Donetsk",
+    "tier": 3,
+    "priority": 1,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2023-12-25"
+  },
+  "Soledar": {
+    "lat": 48.6808,
+    "lon": 38.0889,
+    "oblast": "Donetsk",
+    "tier": 3,
+    "priority": 1,
+    "battle_start": "2022-07-01",
+    "battle_stop": "2023-01-16"
+  },
+  "Vuhledar": {
+    "lat": 47.7833,
+    "lon": 37.25,
+    "oblast": "Donetsk",
+    "tier": 3,
+    "priority": 1,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2024-10-02"
+  },
+  "Volnovakha": {
+    "lat": 47.6006,
+    "lon": 37.4886,
+    "oblast": "Donetsk",
+    "tier": 1,
+    "priority": 1,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2022-03-12"
+  },
+  "Pisky": {
+    "lat": 48.0783,
+    "lon": 37.7783,
+    "oblast": "Donetsk",
+    "tier": 3,
+    "priority": 2,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2022-08-24"
+  },
+  "Krasnohorivka": {
+    "lat": 47.9842,
+    "lon": 37.5383,
+    "oblast": "Donetsk",
+    "tier": 4,
+    "priority": 2,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2024-08-28"
+  },
+  "New York": {
+    "lat": 48.3264,
+    "lon": 37.9542,
+    "oblast": "Donetsk",
+    "tier": 4,
+    "priority": 1,
+    "battle_start": "2022-05-01",
+    "battle_stop": "2024-08-10"
+  },
+  "Toretsk": {
+    "lat": 48.4008,
+    "lon": 37.8528,
+    "oblast": "Donetsk",
+    "tier": 5,
+    "priority": 1,
+    "battle_start": "2022-05-01",
+    "battle_stop": "ongoing"
+  },
+  "Chasiv Yar": {
+    "lat": 48.5889,
+    "lon": 37.8461,
+    "oblast": "Donetsk",
+    "tier": 5,
+    "priority": 1,
+    "battle_start": "2023-06-01",
+    "battle_stop": "ongoing"
+  },
+  "Kurakhove": {
+    "lat": 47.9914,
+    "lon": 37.2836,
+    "oblast": "Donetsk",
+    "tier": 5,
+    "priority": 1,
+    "battle_start": "2024-06-01",
+    "battle_stop": "ongoing"
+  },
+  "Lysychansk": {
+    "lat": 48.9167,
+    "lon": 38.4167,
+    "oblast": "Luhansk",
+    "tier": 0,
+    "priority": 1,
+    "battle_start": "2022-06-25",
+    "battle_stop": "2022-07-03"
+  },
+  "Rubizhne": {
+    "lat": 49.0089,
+    "lon": 38.3764,
+    "oblast": "Luhansk",
+    "tier": 0,
+    "priority": 1,
+    "battle_start": "2022-03-04",
+    "battle_stop": "2022-05-12"
+  },
+  "Popasna": {
+    "lat": 48.6406,
+    "lon": 38.3822,
+    "oblast": "Luhansk",
+    "tier": 3,
+    "priority": 1,
+    "battle_start": "2022-03-17",
+    "battle_stop": "2022-05-07"
+  },
+  "Hirske": {
+    "lat": 48.7464,
+    "lon": 38.5894,
+    "oblast": "Luhansk",
+    "tier": 4,
+    "priority": 2,
+    "battle_start": "2022-06-01",
+    "battle_stop": "2022-07-04"
+  },
+  "Zolote": {
+    "lat": 48.6819,
+    "lon": 38.4944,
+    "oblast": "Luhansk",
+    "tier": 4,
+    "priority": 2,
+    "battle_start": "2022-05-20",
+    "battle_stop": "2022-06-24"
+  },
+  "Irpin": {
+    "lat": 50.5217,
+    "lon": 30.2497,
+    "oblast": "Kyiv",
+    "tier": 1,
+    "priority": 1,
+    "battle_start": "2022-02-27",
+    "battle_stop": "2022-03-28"
+  },
+  "Bucha": {
+    "lat": 50.5439,
+    "lon": 30.2211,
+    "oblast": "Kyiv",
+    "tier": 1,
+    "priority": 1,
+    "battle_start": "2022-02-27",
+    "battle_stop": "2022-03-31"
+  },
+  "Hostomel": {
+    "lat": 50.5697,
+    "lon": 30.2658,
+    "oblast": "Kyiv",
+    "tier": 1,
+    "priority": 1,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2022-04-02"
+  },
+  "Borodyanka": {
+    "lat": 50.6364,
+    "lon": 29.9183,
+    "oblast": "Kyiv",
+    "tier": 1,
+    "priority": 1,
+    "battle_start": "2022-02-28",
+    "battle_stop": "2022-04-01"
+  },
+  "Makariv": {
+    "lat": 50.4631,
+    "lon": 29.8439,
+    "oblast": "Kyiv",
+    "tier": 1,
+    "priority": 2,
+    "battle_start": "2022-02-28",
+    "battle_stop": "2022-03-22"
+  },
+  "Dmytrivka": {
+    "lat": 50.497,
+    "lon": 30.088,
+    "oblast": "Kyiv",
+    "tier": 1,
+    "priority": 3,
+    "battle_start": "2022-02-27",
+    "battle_stop": "2022-03-31"
+  },
+  "Moschun": {
+    "lat": 50.5817,
+    "lon": 30.3153,
+    "oblast": "Kyiv",
+    "tier": 1,
+    "priority": 3,
+    "battle_start": "2022-02-27",
+    "battle_stop": "2022-03-31"
+  },
+  "Kharkiv": {
+    "lat": 49.9935,
+    "lon": 36.2304,
+    "oblast": "Kharkiv",
+    "tier": 2,
+    "priority": 1,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2022-09-11"
+  },
+  "Izyum": {
+    "lat": 49.2089,
+    "lon": 37.2542,
+    "oblast": "Kharkiv",
+    "tier": 3,
+    "priority": 1,
+    "battle_start": "2022-03-08",
+    "battle_stop": "2022-04-01"
+  },
+  "Kupiansk": {
+    "lat": 49.7092,
+    "lon": 37.6175,
+    "oblast": "Kharkiv",
+    "tier": 4,
+    "priority": 1,
+    "battle_start": "2022-02-27",
+    "battle_stop": "2022-09-10"
+  },
+  "Vovchansk": {
+    "lat": 50.2889,
+    "lon": 36.9417,
+    "oblast": "Kharkiv",
+    "tier": 5,
+    "priority": 1,
+    "battle_start": "2024-05-10",
+    "battle_stop": "ongoing"
+  },
+  "Balakliia": {
+    "lat": 49.4606,
+    "lon": 36.8522,
+    "oblast": "Kharkiv",
+    "tier": 3,
+    "priority": 2,
+    "battle_start": "2022-03-03",
+    "battle_stop": "2022-09-08"
+  },
+  "Chuhuiv": {
+    "lat": 49.8367,
+    "lon": 36.6833,
+    "oblast": "Kharkiv",
+    "tier": 3,
+    "priority": 2,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2022-05-13"
+  },
+  "Kherson": {
+    "lat": 46.6354,
+    "lon": 32.6169,
+    "oblast": "Kherson",
+    "tier": 2,
+    "priority": 1,
+    "battle_start": "2022-03-02",
+    "battle_stop": "2022-11-11"
+  },
+  "Nova Kakhovka": {
+    "lat": 46.7547,
+    "lon": 33.3686,
+    "oblast": "Kherson",
+    "tier": 4,
+    "priority": 1,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2023-06-06"
+  },
+  "Mykolaiv": {
+    "lat": 46.975,
+    "lon": 31.9946,
+    "oblast": "Mykolaiv",
+    "tier": 2,
+    "priority": 1,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2022-04-30"
+  },
+  "Orikhiv": {
+    "lat": 47.5678,
+    "lon": 35.7819,
+    "oblast": "Zaporizhzhia",
+    "tier": 4,
+    "priority": 1,
+    "battle_start": "2023-06-04",
+    "battle_stop": "2023-11-30"
+  },
+  "Huliaipole": {
+    "lat": 47.6606,
+    "lon": 36.265,
+    "oblast": "Zaporizhzhia",
+    "tier": 5,
+    "priority": 2,
+    "battle_start": "2022-02-24",
+    "battle_stop": "ongoing"
+  },
+  "Robotyne": {
+    "lat": 47.4544,
+    "lon": 35.835,
+    "oblast": "Zaporizhzhia",
+    "tier": 4,
+    "priority": 2,
+    "battle_start": "2023-06-04",
+    "battle_stop": "2023-08-28"
+  },
+  "Mala Tokmachka": {
+    "lat": 47.2167,
+    "lon": 35.9667,
+    "oblast": "Zaporizhzhia",
+    "tier": 5,
+    "priority": 3,
+    "battle_start": "2022-02-24",
+    "battle_stop": "ongoing"
+  },
+  "Chernihiv": {
+    "lat": 51.4982,
+    "lon": 31.2893,
+    "oblast": "Chernihiv",
+    "tier": 1,
+    "priority": 1,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2022-04-04"
+  },
+  "Okhtyrka": {
+    "lat": 50.3103,
+    "lon": 34.8989,
+    "oblast": "Sumy",
+    "tier": 1,
+    "priority": 2,
+    "battle_start": "2022-02-24",
+    "battle_stop": "2022-04-01"
+  },
+  "Trostianets": {
+    "lat": 50.4797,
+    "lon": 34.9775,
+    "oblast": "Sumy",
+    "tier": 1,
+    "priority": 2,
+    "battle_start": "2022-03-01",
+    "battle_stop": "2022-03-26"
+  },
+  "Dnipro": {
+    "lat": 48.4647,
+    "lon": 35.0462,
+    "oblast": "Dnipropetrovsk",
+    "tier": 5,
+    "priority": 2,
+    "battle_start": "2022-02-24",
+    "battle_stop": "ongoing"
+  },
+  "Kramatorsk": {
+    "lat": 48.7233,
+    "lon": 37.5564,
+    "oblast": "Donetsk",
+    "tier": 2,
+    "priority": 1,
+    "battle_start": "2022-02-24",
+    "battle_stop": "ongoing"
+  },
+  "Sloviansk": {
+    "lat": 48.8575,
+    "lon": 37.6206,
+    "oblast": "Donetsk",
+    "tier": 3,
+    "priority": 2,
+    "battle_start": "2022-04-18",
+    "battle_stop": "2022-07-06"
+  },
+  "Zaporizhzhia": {
+    "lat": 47.8388,
+    "lon": 35.1396,
+    "oblast": "Zaporizhzhia",
+    "tier": 5,
+    "priority": 2,
+    "battle_start": "2022-02-24",
+    "battle_stop": "ongoing"
+  },
+  "Kryvyi Rih": {
+    "lat": 47.9086,
+    "lon": 33.3433,
+    "oblast": "Dnipropetrovsk",
+    "tier": 5,
+    "priority": 2,
+    "battle_start": "2022-02-24",
+    "battle_stop": "ongoing"
+  },
+  "Odesa": {
+    "lat": 46.4825,
+    "lon": 30.7233,
+    "oblast": "Odesa",
+    "tier": 5,
+    "priority": 3,
+    "battle_start": "2022-02-24",
+    "battle_stop": "ongoing"
+  },
+  "Lviv": {
+    "lat": 49.8397,
+    "lon": 24.0297,
+    "oblast": "Lviv",
+    "tier": 5,
+    "priority": 3,
+    "battle_start": "2022-02-24",
+    "battle_stop": "ongoing"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "notebook": "NB11a_v1",
+  "n_oof_parquets": 578,
+  "n_unique_models": 307,
+  "n_headline_models": 290,
+  "n_leaky_models": 4,
+  "n_degenerate_models": 13,
+  "mean_cohen_kappa": 0.051982438609028674,
+  "median_cohen_kappa": 0.0009925958379605193,
+  "mean_spearman_rho": 0.15158836519611957,
+  "mean_jaccard_fp": 0.06279830717216899,
+  "mean_jaccard_fn": 0.31039134075315655,
+  "fleiss_kappa": null,
+  "n_hard_for_all": 6,
+  "n_hard_unosat_damaged": 6,
+  "n_hard_unosat_undamaged": 0,
+  "hard_for_all_threshold": 0.9
+}

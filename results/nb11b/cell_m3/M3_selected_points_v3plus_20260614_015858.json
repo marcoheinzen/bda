@@ -1,0 +1,22 @@
+[
+  "B3_logratio_SAVI",
+  "B3_logratio_NDVI",
+  "B5_UISEM_RF_Optuna_bldg",
+  "B5_UISEM_ExtraTrees_Optuna_bldg",
+  "B5_UISEM_LightGBM_Optuna_bldg",
+  "B5_UISEM_Tuned_Voting_bldg",
+  "B5_sub_RF_full_F8_bldg",
+  "B5_UISEM_XGBoost_Optuna_bldg",
+  "B5_UISEM_ExtraTrees_Optuna",
+  "B5_UISEM_RF_Optuna",
+  "B6_UISEM_Model1_full_F8_bldg",
+  "B5_UISEM_LightGBM_Optuna",
+  "B5_UISEM_Tuned_Voting",
+  "B5_UISEM_Model2_full_F8_bldg",
+  "R3b_card_ms",
+  "R4b_tier0_all",
+  "R3b_all_multimodal",
+  "B5_UISEM_XGBoost_Optuna",
+  "B5_sub_RF_full_F8",
+  "E7c_ExtraTrees"
+]

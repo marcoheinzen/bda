@@ -1,0 +1,33 @@
+{
+  "study_tag": "NB11e_all_multimodal__fusion_composite_blockstats__ExtraTrees",
+  "notebook": "NB11e_all_multimodal",
+  "best_params": {
+    "n_estimators": 206,
+    "max_depth": 10,
+    "min_samples_leaf": 7,
+    "min_samples_split": 2,
+    "max_features": 0.3
+  },
+  "tuned_auc": 0.8106303147419311,
+  "baseline_auc": 0.7845573642104066,
+  "delta_auc": 0.026072950531524586,
+  "mean_folds_auc": 0.7139245353681024,
+  "std_folds_auc": 0.071614730940312,
+  "fold_aucs": [
+    0.7831634985243434,
+    0.6203795671774295,
+    0.6490771459889559,
+    0.7142332669084019,
+    0.8027691982413807
+  ],
+  "n_trials_done": 88,
+  "n_trials_requested": 200,
+  "patience": 40,
+  "n_features": 915,
+  "n_buildings": 480313,
+  "n_cities": 19,
+  "manifest_key": "fusion_composite_blockstats",
+  "parquet_id": "F8",
+  "feature_set": "all_multimodal",
+  "classifier": "ExtraTrees"
+}
